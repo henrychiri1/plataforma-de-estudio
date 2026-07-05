@@ -4,11 +4,19 @@ from supabase import create_client
 
 app = Flask(__name__)
 
-# Render usará estas variables que configurarás en su panel
+# Configuración de variables de entorno desde Render
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+
+# Inicializar cliente de Supabase
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
+# Ruta raíz para evitar el error 404 "Extraviado"
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({"mensaje": "Bienvenido a la API de mi plataforma de estudio"})
+
+# Ruta para validar códigos
 @app.route('/validar', methods=['POST'])
 def validar_codigo():
     data = request.json
