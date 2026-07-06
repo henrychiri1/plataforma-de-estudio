@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -31,3 +32,53 @@
     </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso - Plataforma de Estudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #3b82f6; --success: #10b981; --error: #ef4444; }
+        body { font-family: 'Inter', sans-serif; background: #f3f4f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; }
+        input { width: 100%; padding: 12px; margin: 15px 0; border: 2px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+        button { width: 100%; padding: 12px; background: var(--primary); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; }
+        #resultado { margin-top: 15px; padding: 10px; border-radius: 6px; display: none; }
+        .exito { background: #d1fae5; color: var(--success); display: block !important; }
+        .error { background: #fee2e2; color: var(--error); display: block !important; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Plataforma de Estudio</h1>
+        <p>Ingresa tu código para continuar:</p>
+        <input type="text" id="codigo" placeholder="Ej: ACES-123">
+        <button id="btn" onclick="validar()">Validar Acceso</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script>
+        async function validar() {
+            const btn = document.getElementById('btn');
+            const resDiv = document.getElementById('resultado');
+            const codigo = document.getElementById('codigo').value;
+            
+            btn.innerText = "Validando...";
+            const res = await fetch('/validar', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({codigo: codigo})
+            });
+            const data = await res.json();
+            
+            resDiv.innerText = data.mensaje;
+            resDiv.className = res.ok ? 'exito' : 'error';
+            btn.innerText = "Validar Acceso";
+        }
+    </script>
+</body>
+</html>
+>>>>>>> 8d283519a6234446f4f88b99ec2722051ba56762
