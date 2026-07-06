@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso a Plataforma</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        input { padding: 10px; width: 250px; }
+        button { padding: 10px 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Plataforma de Estudio</h1>
+    <p>Ingresa tu código para continuar:</p>
+    <input type="text" id="codigo" placeholder="Ej: ABC-123">
+    <button onclick="validar()">Entrar</button>
+    <h3 id="resultado"></h3>
+
+    <script>
+        async function validar() {
+            const codigo = document.getElementById('codigo').value;
+            const res = await fetch('/validar', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({codigo: codigo})
+            });
+            const data = await res.json();
+            document.getElementById('resultado').innerText = data.mensaje;
+        }
+    </script>
+</body>
+</html>
