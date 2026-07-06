@@ -3,215 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceso a Plataforma - Estudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Acceso - Plataforma de Estudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        /* Estilos Generales (CSS) */
-        :root {
-            --primary-color: #3b82f6; /* Azul moderno */
-            --success-color: #10b981; /* Verde éxito */
-            --error-color: #ef4444;   /* Rojo error */
-            --text-color: #1f2937;
-            --bg-color: #f3f4f6;
-            --card-bg: #ffffff;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        /* Contenedor tipo "Tarjeta" */
-        .login-card {
-            background-color: var(--card-bg);
-            padding: 2.5rem;
-            border-radius: 12px;
-            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-        }
-
-        p {
-            color: #6b7280;
-            margin-bottom: 1.5rem;
-            font-size: 0.95rem;
-        }
-
-        /* Campo de Entrada */
-        .input-group {
-            margin-bottom: 1.5rem;
-            text-align: left;
-        }
-
-        label {
-            display: block;
-            font-weight: 500;
-            font-size: 0.875rem;
-            margin-bottom: 0.5rem;
-        }
-
-        input[type="text"] {
-            width: 100%;
-            padding: 0.75rem;
-            border: 2px solid #d1d5db;
-            border-radius: 8px;
-            font-size: 1rem;
-            box-sizing: border-box; /* Importante para que el padding no rompa el ancho */
-            transition: border-color 0.2s, box-shadow 0.2s;
-        }
-
-        input[type="text"]:focus {
-            outline: none;
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgb(59 130 246 / 0.2); /* Anillo de enfoque */
-        }
-
-        /* Botón */
-        button {
-            width: 100%;
-            padding: 0.75rem;
-            background-color: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background-color 0.2s, transform 0.1s;
-        }
-
-        button:hover {
-            background-color: #2563eb; /* Azul más oscuro al pasar el mouse */
-        }
-
-        button:active {
-            transform: scale(0.98); /* Efecto de clic */
-        }
-
-        /* Mensajes de Feedback (colores) */
-        #resultado {
-            margin-top: 1.5rem;
-            font-size: 0.9rem;
-            font-weight: 500;
-            padding: 1rem;
-            border-radius: 8px;
-            display: none; /* Oculto por defecto */
-        }
-
-        .resultado-exito {
-            background-color: #d1fae5; /* Verde claro */
-            color: var(--success-color);
-            border: 1px solid #10b981;
-            display: block !important;
-        }
-
-        .resultado-error {
-            background-color: #fee2e2; /* Rojo claro */
-            color: var(--error-color);
-            border: 1px solid #ef4444;
-            display: block !important;
-        }
-
-        /* Animación de carga */
-        .loading {
-            opacity: 0.5;
-            pointer-events: none;
-        }
+        :root { --primary: #3b82f6; --success: #10b981; --error: #ef4444; }
+        body { font-family: 'Inter', sans-serif; background: #f3f4f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; }
+        input { width: 100%; padding: 12px; margin: 15px 0; border: 2px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+        button { width: 100%; padding: 12px; background: var(--primary); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; }
+        #resultado { margin-top: 15px; padding: 10px; border-radius: 6px; display: none; }
+        .exito { background: #d1fae5; color: var(--success); display: block !important; }
+        .error { background: #fee2e2; color: var(--error); display: block !important; }
     </style>
 </head>
 <body>
-
-    <div class="login-card">
+    <div class="card">
         <h1>Plataforma de Estudio</h1>
-        <p>Ingresa tu código de acceso para continuar.</p>
-
-        <div class="input-group">
-            <label for="codigo">Código de Acceso</label>
-            <input type="text" id="codigo" placeholder="Ej: ACES-1234">
-        </div>
-
-        <button id="btn-validar" onclick="validar()">Validar Acceso</button>
-
-        <p id="resultado"></p> </div>
+        <p>Ingresa tu código para continuar:</p>
+        <input type="text" id="codigo" placeholder="Ej: ACES-123">
+        <button id="btn" onclick="validar()">Validar Acceso</button>
+        <div id="resultado"></div>
+    </div>
 
     <script>
-        // Lógica de JavaScript Mejorada
         async function validar() {
-            const codigo = document.getElementById('codigo').value.trim(); // .trim() quita espacios extra
-            const btn = document.getElementById('btn-validar');
-            const resultadoP = document.getElementById('resultado');
-
-            // Validar que no esté vacío
-            if (!codigo) {
-                mostrarMensaje("Por favor, ingresa un código.", "error");
-                return;
-            }
-
-            // 1. Estado de Carga: Deshabilitar botón y cambiar estilo
+            const btn = document.getElementById('btn');
+            const resDiv = document.getElementById('resultado');
+            const codigo = document.getElementById('codigo').value;
+            
             btn.innerText = "Validando...";
-            btn.classList.add('loading');
-            resultadoP.className = ''; // Limpiar clases anteriores
-            resultadoP.style.display = 'none'; // Ocultar mientras carga
-
-            try {
-                const res = await fetch('/validar', {
-                    method: 'POST',
-                    headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({codigo: codigo})
-                });
-                const data = await res.json();
-
-                // 2. Feedback Visual según la respuesta
-                if (res.ok) {
-                    // Código Correcto (200)
-                    mostrarMensaje(data.mensaje || "Acceso permitido. Redirigiendo...", "exito");
-                    // Opcional: Redirigir tras 2 segundos
-                    // setTimeout(() => { window.location.href = "/dashboard"; }, 2000);
-                } else if (res.status === 404 || res.status === 403) {
-                    // Código no encontrado (404) o ya en uso (403)
-                    mostrarMensaje(data.mensaje || "Error al validar el código.", "error");
-                } else {
-                    // Otro tipo de error
-                    mostrarMensaje("Ocurrió un error inesperado en el servidor.", "error");
-                }
-
-            } catch (error) {
-                console.error("Error de red:", error);
-                mostrarMensaje("Error de conexión con el servidor.", "error");
-            } finally {
-                // 3. Restaurar el botón
-                btn.innerText = "Validar Acceso";
-                btn.classList.remove('loading');
-            }
-        }
-
-        // Función auxiliar para mostrar mensajes
-        function mostrarMensaje(texto, tipo) {
-            const resultadoP = document.getElementById('resultado');
-            resultadoP.innerText = texto;
-
-            if (tipo === "exito") {
-                resultadoP.className = 'resultado-exito';
-            } else if (tipo === "error") {
-                resultadoP.className = 'resultado-error';
-            }
+            const res = await fetch('/validar', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({codigo: codigo})
+            });
+            const data = await res.json();
+            
+            resDiv.innerText = data.mensaje;
+            resDiv.className = res.ok ? 'exito' : 'error';
+            btn.innerText = "Validar Acceso";
         }
     </script>
-
 </body>
 </html>
