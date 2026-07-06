@@ -36,7 +36,6 @@ def validar_codigo():
 
 if __name__ == '__main__':
     app.run(debug=True)
-=======
 import os
 import re
 from flask import Flask, request, jsonify, render_template
