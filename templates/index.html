@@ -2,13 +2,20 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Plataforma de Estudio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso a Plataforma</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        input { padding: 10px; width: 250px; }
+        button { padding: 10px 20px; cursor: pointer; }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a la Plataforma</h1>
-    <input type="text" id="codigo" placeholder="Ingresa tu código">
-    <button onclick="validar()">Validar Acceso</button>
-    <p id="resultado"></p>
+    <h1>Plataforma de Estudio</h1>
+    <p>Ingresa tu código para continuar:</p>
+    <input type="text" id="codigo" placeholder="Ej: ABC-123">
+    <button onclick="validar()">Entrar</button>
+    <h3 id="resultado"></h3>
 
     <script>
         async function validar() {
