@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 from flask import Flask, request, jsonify, render_template
 from supabase import create_client
@@ -82,4 +81,4 @@ def validar_codigo():
 
 if __name__ == '__main__':
     app.run(debug=True)
->>>>>>> 8d283519a6234446f4f88b99ec2722051ba56762
+
