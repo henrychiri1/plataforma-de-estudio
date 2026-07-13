@@ -5,40 +5,45 @@ import re
 st.set_page_config(page_title="Simulador Ascenso 2026", layout="centered")
 
 def parse_txt(contenido):
-    # Usamos una técnica sin barras invertidas para limpiar el texto
-    # Eliminamos el patrón convirtiendo los corchetes
-    contenido_limpio = contenido.replace("[", "(").replace("]", ")")
+    # Eliminamos las etiquetas simplemente reemplazándolas
+    # Buscamos patrones de corchetes que no usen barras invertidas
+    contenido_limpio = re.sub("\", "", contenido)
     
-    # Bloques divididos por "Pregunta #"
+    # Dividimos los bloques buscando "Pregunta #"
     bloques = re.split("Pregunta #", contenido_limpio)
     preguntas = []
     
     for b in bloques:
+        # Usamos una búsqueda simple que no requiere caracteres de escape complejos
+        # Si contiene la estructura mínima, lo procesamos
         if "Respuesta correcta:" in b:
-            # Extraemos datos usando un enfoque más sencillo
-            pregunta = b.split("\n")[0]
-            partes = b.split("\n")
+            lineas = b.splitlines()
+            pregunta = lineas[0]
             
-            # Buscamos las opciones basándonos en la letra inicial
-            op_a = next((p for p in partes if p.startswith("A)")), "")
-            op_b = next((p for p in partes if p.startswith("B)")), "")
-            op_c = next((p for p in partes if p.startswith("C)")), "")
-            op_d = next((p for p in partes if p.startswith("D)")), "")
+            # Extraemos opciones buscando las letras al inicio
+            opciones = {"A": "", "B": "", "C": "", "D": ""}
+            for linea in lineas:
+                if linea.startswith("A)"): opciones["A"] = linea[2:]
+                if linea.startswith("B)"): opciones["B"] = linea[2:]
+                if linea.startswith("C)"): opciones["C"] = linea[2:]
+                if linea.startswith("D)"): opciones["D"] = linea[2:]
             
-            corr = next((p for p in partes if "Respuesta correcta:" in p), "A")
-            just = next((p for p in partes if "Justificación:" in p), "Sin justificación")
+            corr = ""
+            for linea in lineas:
+                if "Respuesta correcta:" in linea:
+                    corr = linea.split(":")[1].strip()[0]
             
             preguntas.append({
                 "pregunta": pregunta,
-                "a": op_a, "b": op_b, "c": op_c, "d": op_d,
-                "corr": corr[-1], 
-                "just": just
+                "a": opciones["A"], "b": opciones["B"], "c": opciones["C"], "d": opciones["D"],
+                "corr": corr,
+                "just": "Verificar en documento original"
             })
     return preguntas
 
 st.title("🎓 Simulador de Ascenso 2026")
-ruta_templates = "templates"
 
+ruta_templates = "templates"
 if os.path.exists(ruta_templates):
     archivos = [f for f in os.listdir(ruta_templates) if f.endswith(".txt")]
     bloque = st.sidebar.selectbox("Elige un bloque:", archivos)
@@ -61,7 +66,6 @@ if os.path.exists(ruta_templates):
                     st.success("¡Correcto! 🎉")
                 else:
                     st.error(f"Incorrecto. La correcta era {q['corr'].upper()}")
-                st.info(f"**{q['just']}**")
                 
             if st.button("Siguiente"):
                 if st.session_state.q_idx < len(data) - 1:
