@@ -26,13 +26,23 @@ def parse_txt(contenido):
             except: continue
     return preguntas
 
+# Funciones de callback para que sea automático
+def verificar():
+    seleccion = st.session_state.seleccion
+    q = st.session_state.pregunta_actual
+    if seleccion == q['corr_texto']:
+        st.session_state.correctas += 1
+    else:
+        st.session_state.incorrectas += 1
+    st.session_state.respondido = True
+
 st.title("🎓 Simulador de Ascenso 2026")
 
-# Inicializar contadores
-if 'idx' not in st.session_state: st.session_state.idx = 0
-if 'correctas' not in st.session_state: st.session_state.correctas = 0
-if 'incorrectas' not in st.session_state: st.session_state.incorrectas = 0
-if 'respondidas' not in st.session_state: st.session_state.respondidas = set()
+if 'idx' not in st.session_state: 
+    st.session_state.idx = 0
+    st.session_state.correctas = 0
+    st.session_state.incorrectas = 0
+    st.session_state.respondido = False
 
 ruta = "templates"
 if os.path.exists(ruta):
@@ -41,51 +51,34 @@ if os.path.exists(ruta):
     
     if archivo:
         data = parse_txt(open(os.path.join(ruta, archivo), "r", encoding="utf-8", errors="ignore").read())
+        q = data[st.session_state.idx]
+        st.session_state.pregunta_actual = q
         
-        # Barra de progreso y métricas
-        col_m1, col_m2 = st.columns(2)
-        col_m1.metric("Correctas", st.session_state.correctas)
-        col_m2.metric("Errores", st.session_state.incorrectas)
-        st.progress((st.session_state.idx) / len(data))
+        # Mezclar opciones solo al cargar la pregunta
+        if 'mezcladas' not in st.session_state or st.session_state.idx != st.session_state.get('last_idx'):
+            st.session_state.mezcladas = q['opciones'][:]
+            random.shuffle(st.session_state.mezcladas)
+            st.session_state.last_idx = st.session_state.idx
+            st.session_state.respondido = False
 
-        if st.session_state.idx < len(data):
-            q = data[st.session_state.idx]
-            opciones_mezcladas = q['opciones'][:]
-            random.shuffle(opciones_mezcladas)
-            
-            st.subheader(f"Pregunta {st.session_state.idx + 1}")
-            st.write(q['q'])
-            
-            seleccion = st.radio("Elige:", opciones_mezcladas, index=None, key=f"q_{st.session_state.idx}")
-            
-            if st.button("Comprobar") and seleccion:
-                if st.session_state.idx not in st.session_state.respondidas:
-                    if seleccion == q['corr_texto']:
-                        st.session_state.correctas += 1
-                        st.success("¡Correcto! 🎉")
-                    else:
-                        st.session_state.incorrectas += 1
-                        st.error(f"Incorrecto. La correcta era: {q['corr_texto']}")
-                    st.info(f"**Justificación:** {q['just']}")
-                    st.session_state.respondidas.add(st.session_state.idx)
-                    st.rerun()
+        st.subheader(f"Pregunta {st.session_state.idx + 1}")
+        st.write(q['q'])
+        
+        # Radio automático
+        st.radio("Elige:", st.session_state.mezcladas, index=None, on_change=verificar, key="seleccion", disabled=st.session_state.respondido)
+        
+        # Mostrar resultado solo si ya respondió
+        if st.session_state.respondido:
+            if st.session_state.seleccion == q['corr_texto']:
+                st.success("¡Correcto! 🎉")
+            else:
+                st.error(f"Incorrecto. Correcta: {q['corr_texto']}")
+            st.info(f"**Justificación:** {q['just']}")
             
             if st.button("Siguiente"):
                 st.session_state.idx += 1
+                st.session_state.respondido = False
                 st.rerun()
-        else:
-            # Pantalla final
-            st.balloons()
-            st.header("¡Has completado el bloque!")
-            porcentaje = (st.session_state.correctas / len(data)) * 100
-            st.write(f"Tu puntuación final: {porcentaje:.1f}%")
-            if porcentaje >= 80:
-                st.success("¡Excelente! Estás listo para el ascenso. 🚀")
-            else:
-                st.warning("Buen intento, pero necesitas reforzar un poco más. ¡Sigue practicando! 💪")
-            if st.button("Reiniciar Simulacro"):
-                st.session_state.idx = 0
-                st.session_state.correctas = 0
-                st.session_state.incorrectas = 0
-                st.session_state.respondidas = set()
-                st.rerun()
+
+        st.sidebar.metric("Correctas", st.session_state.correctas)
+        st.sidebar.metric("Errores", st.session_state.incorrectas)
