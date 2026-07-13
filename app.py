@@ -9,18 +9,30 @@ def parse_txt(contenido):
     bloques = re.split(r'Pregunta #', contenido)
     preguntas = []
     for b in bloques:
-        if "A)" in b and "Respuesta correcta:" in b:
+        if "Respuesta correcta:" in b:
             try:
-                # Extraemos partes con Regex simple
-                pregunta = b.split('\n')[0]
-                op_a = re.search(r'A\)\s*(.*?)(?=\nB\))', b, re.DOTALL).group(1)
-                op_b = re.search(r'B\)\s*(.*?)(?=\nC\))', b, re.DOTALL).group(1)
-                op_c = re.search(r'C\)\s*(.*?)(?=\nD\))', b, re.DOTALL).group(1)
-                op_d = re.search(r'D\)\s*(.*?)(?=\nRespuesta)', b, re.DOTALL).group(1)
-                corr = re.search(r'Respuesta correcta:\s*([A-D])', b).group(1)
+                lineas = b.split('\n')
+                pregunta = lineas[0]
+                # Extraer opciones eliminando los prefijos "A) ", "B) ", etc.
+                op_map = {}
+                for l in lineas:
+                    if l.startswith("A)"): op_map['A'] = l[3:]
+                    if l.startswith("B)"): op_map['B'] = l[3:]
+                    if l.startswith("C)"): op_map['C'] = l[3:]
+                    if l.startswith("D)"): op_map['D'] = l[3:]
+                
+                corr_letra = re.search(r'Respuesta correcta:\s*([A-D])', b).group(1)
+                texto_correcto = op_map[corr_letra]
+                
                 just = re.search(r'Justificación:\s*(.*)', b, re.DOTALL).group(1).strip()
                 
-                preguntas.append({'q': pregunta, 'opts': {'A': op_a, 'B': op_b, 'C': op_c, 'D': op_d}, 'corr': corr, 'just': just})
+                # Guardamos la pregunta, las opciones como lista y el texto de la correcta
+                preguntas.append({
+                    'q': pregunta, 
+                    'opciones': list(op_map.values()), 
+                    'corr_texto': texto_correcto, 
+                    'just': just
+                })
             except: continue
     return preguntas
 
@@ -39,23 +51,24 @@ if os.path.exists(ruta):
         
         q = data[st.session_state.idx]
         
-        # Aleatorizar opciones
-        opts = list(q['opts'].items())
-        random.shuffle(opts)
+        # Aleatorizamos la lista de opciones para que el orden cambie siempre
+        opciones_mezcladas = q['opciones'][:]
+        random.shuffle(opciones_mezcladas)
         
         st.subheader(f"Pregunta {st.session_state.idx + 1}")
         st.write(q['q'])
         
-        # Radio para opciones
-        seleccion = st.radio("Elige una opción:", [o[0] for o in opts], format_func=lambda x: f"{x}) {q['opts'][x]}", key=f"q_{st.session_state.idx}")
+        # El usuario elige de una lista sin letras A, B, C, D
+        seleccion = st.radio("Selecciona una opción:", opciones_mezcladas, index=None)
         
         if st.button("Comprobar Respuesta"):
-            if seleccion == q['corr']:
+            if seleccion == q['corr_texto']:
                 st.success("¡Correcto! 🎉")
             else:
-                st.error(f"Incorrecto. La respuesta era {q['corr']}: {q['opts'][q['corr']]}")
+                st.error(f"Incorrecto. La respuesta correcta era: {q['corr_texto']}")
             st.info(f"**Justificación:** {q['just']}")
         
+        # Navegación
         col1, col2 = st.columns(2)
         if col1.button("Anterior") and st.session_state.idx > 0:
             st.session_state.idx -= 1
