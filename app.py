@@ -5,12 +5,12 @@ import re
 st.set_page_config(page_title="Simulador Ascenso 2026", layout="centered")
 
 def parse_txt(contenido):
-    # Usamos comillas dobles y doble barra para escapar el regex de forma segura
+    # Usamos comillas dobles y el prefijo r para evitar errores de escape
     contenido_limpio = re.sub(r"\", "", contenido)
     bloques = re.split(r"(?=Pregunta\s*#)", contenido_limpio)
     preguntas = []
     for b in bloques:
-        # Regex corregido para evitar conflictos de caracteres
+        # Regex seguro para capturar el formato que tienes en tus archivos
         match = re.search(r"Pregunta\s*#\d+:\s*(?P<pregunta>.*?)\nA\)\s*(?P<a>.*?)\nB\)\s*(?P<b>.*?)\nC\)\s*(?P<c>.*?)\nD\)\s*(?P<d>.*?)\nRespuesta correcta:\s*(?P<corr>[a-dA-D]).*?\nJustificación:\s*(?P<just>.*)", b, re.DOTALL)
         if match:
             preguntas.append(match.groupdict())
@@ -47,3 +47,5 @@ if os.path.exists(ruta_templates):
             if st.session_state.q_idx < len(data) - 1:
                 st.session_state.q_idx += 1
                 st.rerun()
+else:
+    st.error("No se encontró la carpeta 'templates'.")
