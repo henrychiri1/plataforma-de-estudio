@@ -1,83 +1,76 @@
-import os
-from flask import Flask, request, jsonify, render_template
-from supabase import create_client
-
-app = Flask(__name__)
-
-# Configuración de variables de entorno desde Render
-SUPABASE_URL = os.environ.get("SUPABASE_URL")
-SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-
-# NUEVA RUTA: Sirve la interfaz web
-@app.route('/', methods=['GET'])
-def index():
-    return render_template('index.html')
-
-# Tu lógica de validación se mantiene igual
-@app.route('/validar', methods=['POST'])
-def validar_codigo():
-    data = request.json
-    codigo = data.get('codigo')
-    
-    # 1. Consultar si el código existe
-    usuario = supabase.table("Usuarios").select("*").eq("codigo_acceso", codigo).execute()
-    
-    if not usuario.data:
-        return jsonify({"mensaje": "Código no encontrado"}), 404
-        
-    # 2. Verificar si ya está siendo usado por alguien más
-    if usuario.data[0]['estado_sesion'] == True:
-        return jsonify({"mensaje": "El código ya está en uso"}), 403
-        
-    # 3. Si todo está bien, activar sesión
-    supabase.table("Usuarios").update({"estado_sesion": True}).eq("codigo_acceso", codigo).execute()
-    return jsonify({"mensaje": "Acceso permitido"})
-
-if __name__ == '__main__':
-    app.run(debug=True)
+import streamlit as st
 import os
 import re
-from flask import Flask, request, jsonify, render_template
-from flask_cors import CORS
-from supabase import create_client
 
-app = Flask(__name__)
+# Configuración visual
+st.set_page_config(page_title="Plataforma de Estudio", page_icon="🎓", layout="centered")
 
-# Configuración de CORS: Solo permite peticiones desde tu propia URL
-CORS(app, resources={r"/validar": {"origins": "https://plataforma-de-estudio.onrender.com"}})
-
-SUPABASE_URL = os.environ.get("SUPABASE_URL")
-SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-
-@app.route('/', methods=['GET'])
-def index():
-    return render_template('index.html')
-
-@app.route('/validar', methods=['POST'])
-def validar_codigo():
-    data = request.json
-    # Usamos .get() con valor por defecto para evitar errores si el campo está vacío
-    codigo = data.get('codigo', '')
-
-    # SEGURIDAD: Validación de formato antes de tocar la base de datos
-    # Ajusta esta expresión regular según cómo sean tus códigos (ej: 8 caracteres alfanuméricos)
-    if not re.match("^[a-zA-Z0-9]{8,12}$", codigo):
-        return jsonify({"mensaje": "Formato de código inválido"}), 400
+def parse_txt(contenido):
+    # Regex robusto que captura pregunta, opciones A-D, respuesta y justificación
+    # Ignoramos etiquetas como que vienen en tus archivos
+    contenido_limpio = re.sub(r'\', '', contenido)
+    bloques = re.split(r'(?=Pregunta\s*#)', contenido_limpio)
     
-    # LÓGICA DE SUPABASE
-    usuario = supabase.table("Usuarios").select("*").eq("codigo_acceso", codigo).execute()
+    preguntas = []
+    for b in bloques:
+        match = re.search(r'Pregunta\s*#\d+:\s*(?P<pregunta>.*?)\nA\)\s*(?P<a>.*?)\nB\)\s*(?P<b>.*?)\nC\)\s*(?P<c>.*?)\nD\)\s*(?P<d>.*?)\nRespuesta correcta:\s*(?P<corr>[a-dA-D])\s*.*?\nJustificación:\s*(?P<just>.*)', b, re.DOTALL)
+        if match:
+            preguntas.append(match.groupdict())
+    return preguntas
+
+# --- INTERFAZ ---
+st.title("🎓 Simulador de Ascenso 2026")
+st.sidebar.header("Menú de Bloques")
+
+# 1. Cargar archivos desde carpeta 'templates'
+ruta_templates = 'templates'
+if not os.path.exists(ruta_templates):
+    os.makedirs(ruta_templates)
+
+archivos = [f for f in os.listdir(ruta_templates) if f.endswith('.txt')]
+bloque_seleccionado = st.sidebar.selectbox("Selecciona tu bloque:", archivos)
+
+if bloque_seleccionado:
+    with open(os.path.join(ruta_templates, bloque_seleccionado), 'r', encoding='utf-8') as f:
+        data = parse_txt(f.read())
     
-    if not usuario.data:
-        return jsonify({"mensaje": "Código no encontrado"}), 404
-        
-    if usuario.data[0].get('estado_sesion') == True:
-        return jsonify({"mensaje": "El código ya está en uso"}), 403
-        
-    supabase.table("Usuarios").update({"estado_sesion": True}).eq("codigo_acceso", codigo).execute()
-    return jsonify({"mensaje": "Acceso permitido"})
+    if not data:
+        st.error("No se pudieron extraer preguntas. Revisa el formato del archivo TXT.")
+    else:
+        # Estado de la sesión
+        if 'score' not in st.session_state: st.session_state.score = {'corr': 0, 'err': 0}
+        if 'q_idx' not in st.session_state: st.session_state.q_idx = 0
 
-if __name__ == '__main__':
-    app.run(debug=True)
+        q = data[st.session_state.q_idx]
 
+        # Progreso
+        st.progress((st.session_state.q_idx + 1) / len(data))
+        st.write(f"Pregunta {st.session_state.q_idx + 1} de {len(data)}")
+        
+        st.subheader(q['pregunta'])
+        
+        opc = st.radio("Selecciona:", ["A", "B", "C", "D"], key="q_sel")
+        
+        if st.button("Comprobar"):
+            if opc.lower() == q['corr'].lower():
+                st.session_state.score['corr'] += 1
+                st.success("¡Correcto! 🎉")
+            else:
+                st.session_state.score['err'] += 1
+                st.error(f"Incorrecto. La correcta era {q['corr'].upper()}")
+            
+            with st.expander("Ver Justificación", expanded=True):
+                st.info(q['just'])
+        
+        # Métricas
+        col1, col2 = st.columns(2)
+        col1.metric("Correctas", st.session_state.score['corr'])
+        col2.metric("Errores", st.session_state.score['err'])
+        
+        if st.button("Siguiente"):
+            if st.session_state.q_idx < len(data) - 1:
+                st.session_state.q_idx += 1
+                st.rerun()
+            else:
+                st.balloons()
+                st.write("¡Bloque finalizado!")
