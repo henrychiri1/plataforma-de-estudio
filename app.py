@@ -35,7 +35,8 @@ st.title("🎓 Simulador de Ascenso 2026")
 
 ruta = "templates"
 if os.path.exists(ruta):
-    archivos = [f for f in os.listdir(ruta) if f.endswith(".txt")]
+   # Con sorted() le indicamos que ordene la lista alfabéticamente
+    archivos = sorted([f for f in os.listdir(ruta) if f.endswith(".txt")])
     archivo = st.sidebar.selectbox("Bloque:", archivos)
     
     if archivo:
