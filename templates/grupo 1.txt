@@ -1,351 +1,553 @@
-Pregunta #1: ¿Quién fue el primer científico en proponer la plasticidad en la fuerza y el número de las conexiones neuronales como base del aprendizaje y la memoria?
-A) Iván Pávlov
-B) Santiago Ramón y Cajal
-C) Paul MacLean
-D) Burrhus Frederic Skinner
-Respuesta correcta: B) Santiago Ramón y Cajal
-Justificación: Santiago Ramón y Cajal fue el primero en sostener que las conexiones entre las células nerviosas podían modificarse en fuerza y número como consecuencia de la actividad y la experiencia. Este planteamiento constituye un antecedente fundamental del concepto moderno de plasticidad sináptica y explica cómo el aprendizaje puede producir modificaciones duraderas en las redes neuronales. El documento Neurociencia y neuroaprendizaje desarrolla esta capacidad del cerebro para reorganizar, crear, modificar o eliminar conexiones durante toda la vida. Pávlov y Skinner estudiaron el condicionamiento, mientras que MacLean formuló el modelo del cerebro triuno.
-Pregunta #2: ¿Qué riesgo enfrenta una educación que ignora los cambios en la socialización, el pensamiento y las habilidades diferenciadas en el contexto tecnológico actual?
-A) La desaparición inmediata de la enseñanza presencial.
-B) La reducción automática de la matrícula escolar.
-C) La obsolescencia y pérdida de pertinencia de sus prácticas educativas.
-D) La eliminación total de los conocimientos científicos tradicionales.
-Respuesta correcta: C) La obsolescencia y pérdida de pertinencia de sus prácticas educativas
-Justificación: Una educación que no reconoce las nuevas formas de comunicación, socialización, procesamiento de información y aprendizaje corre el riesgo de mantener métodos desconectados de la realidad de sus estudiantes. El texto de innovación educativa señala que la educación debe adecuarse a los cambios en el conocimiento, la tecnología, la información, los nuevos lenguajes, la comunicación y la investigación. Esto no implica abandonar todos los conocimientos anteriores, sino reinterpretarlos y enseñarlos mediante prácticas pertinentes. Las opciones A, B y D presentan consecuencias absolutas que no se derivan necesariamente del cambio tecnológico.
+Pregunta #1: ¿Quién fue el primer cientifico en proponer la plasticidad en la fuerza y el número de las conexiones neuronales ¿cómo base del aprendizaje y la memoria?
+
+A) Donald Hebb.
+B) Santiago Ramón y Cajal.
+C) Paul D. MacLean.
+D) Eric Kandel.
+
+Respuesta correcta: B) Santiago Ramón y Cajal.
+
+Justificación: El capítulo 6, «Atención y memoria», de Neurociencias. Neuroaprendizaje. Las emociones y el aprendizaje señala que Santiago Ramón y Cajal fue el primero en proponer la plasticidad en la fuerza y el número de las conexiones neuronales como fundamento del aprendizaje y la memoria. Donald Hebb —A— formuló posteriormente, en 1949, la plasticidad asociativa entre actividad presináptica y postsináptica. Paul D. MacLean —C— desarrolló el modelo del cerebro triuno. Eric Kandel —D— realizó aportes posteriores sobre los mecanismos celulares de la memoria, pero no es el autor indicado por el documento.
+
+Pregunta #2: ¿Qué riesgo enfrenta una educación que ignora los cambios en la socializacion, el pensamiento y las habilidades diferenciadas en el contexto tecnológico actual?
+
+A) Concentrarse en competencias digitales y disminuir el estudio de contenidos disciplinares.
+B) Perder pertinencia frente a las nuevas formas de aprender, relacionarse y producir conocimiento.
+C) Reducir la estabilidad institucional al incorporar métodos de enseñanza más participativos.
+D) Debilitar la autoridad docente al permitir que el estudiante utilice diversas fuentes de información.
+
+Respuesta correcta: B) Perder pertinencia frente a las nuevas formas de aprender, relacionarse y producir conocimiento.
+
+Justificación: Una educación que no reconoce las transformaciones tecnológicas, culturales y comunicativas corre el riesgo de volverse descontextualizada y poco significativa para sus estudiantes. La innovación educativa surge precisamente de la necesidad de responder a nuevos lenguajes, formas de socialización, producción de conocimiento y habilidades diferenciadas. La A presenta una posible decisión curricular, no el riesgo central. La C confunde innovación con inestabilidad organizativa. La D interpreta la diversificación de fuentes como pérdida de autoridad, cuando el rol docente se transforma hacia la orientación, mediación y producción crítica de conocimiento.
+
 Pregunta #3: ¿Qué tipo de atención requiere un gasto energético alto?
-A) Atención espontánea.
-B) Atención voluntaria.
-C) Atención refleja.
-D) Atención involuntaria.
-Respuesta correcta: B) Atención voluntaria
-Justificación: La atención voluntaria implica una decisión consciente de concentrarse, inhibir estímulos irrelevantes y sostener el esfuerzo sobre una tarea, incluso cuando esta no resulta inmediatamente atractiva. Por ello requiere un mayor gasto energético y la participación de funciones ejecutivas asociadas principalmente con las regiones prefrontales. La atención espontánea o involuntaria se activa por la novedad, intensidad o significado emocional del estímulo y demanda inicialmente menor esfuerzo consciente. El texto de neuroaprendizaje caracteriza la atención como un dispositivo cognitivo que focaliza la conciencia y excluye estímulos irrelevantes.
-Pregunta #4: Según la definición de estilo de aprendizaje, ¿cuáles son los indicadores relativamente estables de cómo los alumnos perciben, interaccionan y responden a sus ambientes de aprendizaje?
-A) Los rasgos económicos, culturales y familiares.
-B) Las habilidades lingüísticas, artísticas y deportivas.
-C) Los rasgos cognitivos, afectivos y fisiológicos.
-D) Las capacidades memorísticas, disciplinarias y administrativas.
-Respuesta correcta: C) Los rasgos cognitivos, afectivos y fisiológicos
-Justificación: El texto de Sáez López define el estilo de aprendizaje como el conjunto de rasgos cognitivos, afectivos y fisiológicos que funcionan como indicadores relativamente estables de la manera en que el estudiante percibe, interactúa y responde a un ambiente de aprendizaje. Los rasgos cognitivos se relacionan con el procesamiento de la información; los afectivos, con la motivación y las emociones; y los fisiológicos, con preferencias sensoriales o condiciones corporales. Las otras opciones pueden influir en el aprendizaje, pero no constituyen los tres indicadores de la definición estudiada.
+
+A) Atención involuntaria.
+B) Atención espontánea.
+C) Atención voluntaria.
+D) Atención refleja.
+
+Respuesta correcta: C) Atención voluntaria.
+
+Justificación: La atención voluntaria exige intención consciente, esfuerzo, concentración y control de los estímulos irrelevantes; por ello, demanda un gasto energético mayor. La atención involuntaria —A— y la espontánea —B— son atraídas por estímulos intensos o novedosos sin que exista una decisión sostenida del sujeto. La refleja —D— corresponde a una reacción automática de orientación y no implica el esfuerzo cognitivo prolongado característico de la atención voluntaria. El texto de neuroaprendizaje define la atención como un dispositivo cognitivo básico que selecciona un estímulo e inhibe los demás.
+
+Pregunta #4: Según la definicion de estilo de aprendizaje ¿cómo conjunto de elementos exteriores que influyen en el contexto de la situación de aprendizaje, ¿cuáles son los indicadores estables que los alumnos perciben, interaccionan y responden a sus ambientes de aprendizaje?
+
+A) Los rasgos cognitivos, afectivos y fisiológicos.
+B) Los conocimientos conceptuales, procedimentales y actitudinales.
+C) Las capacidades intelectuales, motrices y sociocomunitarias.
+D) Las experiencias familiares, académicas y tecnológicas.
+
+Respuesta correcta: A) Los rasgos cognitivos, afectivos y fisiológicos.
+
+Justificación: En el capítulo sobre estilos de aprendizaje, Sáez López recupera la definición de Keefe: los estilos son rasgos cognitivos, afectivos y fisiológicos relativamente estables que sirven como indicadores de cómo los estudiantes perciben las interacciones y responden a sus ambientes de aprendizaje. La B corresponde a clases de contenidos educativos. La C agrupa capacidades de desempeño, pero no reproduce la definición. La D enumera influencias contextuales que pueden afectar el aprendizaje, aunque no constituyen los tres indicadores relativamente estables señalados por Keefe.
+
 Pregunta #5: ¿Con qué áreas neuroanatómicas está vinculado el proceso de codificación y registro de la información?
+
 A) Con las áreas visuales y auditivas.
-B) Exclusivamente con el cerebelo.
-C) Con el bulbo raquídeo y la médula espinal.
-D) Únicamente con las áreas motoras primarias.
-Respuesta correcta: A) Con las áreas visuales y auditivas
-Justificación: La codificación inicial de la información depende de los sistemas sensoriales que reciben y procesan los estímulos. En el aprendizaje escolar predominan especialmente las vías visual y auditiva, cuyas áreas corticales permiten reconocer, organizar y registrar imágenes, palabras, sonidos y explicaciones. Posteriormente intervienen estructuras como el hipocampo y la amígdala en la consolidación y significación emocional de los recuerdos. El documento de neuroaprendizaje explica que el cerebro recibe información sensorial, la selecciona mediante los sistemas atencionales y la conduce hacia estructuras límbicas y corticales. El cerebelo y las áreas motoras tienen otras funciones predominantes.
-Pregunta #6: ¿Cuáles son las tres corrientes sobresalientes desde las que se explica la motivación en la psicología educativa?
-A) Psicoanalítica, sociológica y biológica.
-B) Tradicional, tecnológica y comunitaria.
-C) Conductista, constructivista y conectivista.
-D) Conductista, humanista y cognitiva.
-Respuesta correcta: D) Conductista, humanista y cognitiva
-Justificación: Desde el enfoque conductista, la motivación se explica principalmente por recompensas, incentivos y consecuencias externas. El enfoque humanista destaca las necesidades, la autorrealización, la autonomía y el desarrollo integral. El enfoque cognitivo analiza pensamientos, expectativas, atribuciones, metas y creencias sobre la propia capacidad. Estas tres perspectivas son las corrientes clásicas sobresalientes en psicología educativa. La respuesta se fundamenta en la teoría general de la motivación educativa, debido a que la clasificación completa no aparece desarrollada expresamente en los documentos adjuntos. La opción C incorpora el conectivismo, que es una teoría contemporánea del aprendizaje y no una de las tres corrientes clásicas de la motivación.
-Pregunta #7: Una docente denuncia que su esposo le retiró el acceso a la cuenta bancaria conjunta, confiscó su salario y le impide comprar materiales de trabajo. ¿Qué tipo de violencia describe esta situación?
-A) Violencia simbólica.
-B) Violencia patrimonial y económica.
-C) Violencia mediática.
-D) Violencia institucional.
-Respuesta correcta: B) Violencia patrimonial y económica
-Justificación: Existe violencia patrimonial y económica cuando se controla, limita, retiene o priva a una mujer de sus ingresos, bienes, recursos o medios necesarios para trabajar y satisfacer sus necesidades. En este caso, el esposo se apropia del salario, restringe el acceso bancario e impide que la docente disponga libremente de sus recursos. La Ley N.º 348 incluye dentro de esta forma de violencia el control de los ingresos y la privación de medios económicos. No es violencia institucional porque la conducta no procede de una entidad pública, ni mediática porque no se realiza mediante medios de comunicación.
-Pregunta #8: Según la Guía para la Identificación y Denuncia de la Violencia Intrafamiliar, un acto intencionado dirigido a socavar la valoración que una niña, niño o adolescente tiene de sí mismo constituye:
-A) Violencia económica.
-B) Violencia física.
-C) Violencia psicológica.
-D) Abandono material.
-Respuesta correcta: C) Violencia psicológica
-Justificación: La violencia psicológica comprende actos deliberados que dañan la autoestima, la seguridad emocional, la dignidad o la percepción que la víctima tiene de sí misma. Puede manifestarse mediante humillaciones, amenazas, desprecio, insultos, descalificaciones, aislamiento o culpabilización. La guía identifica expresamente como violencia psicológica todo acto intencionado que socava la valoración personal de la niña, niño o adolescente. La violencia física produce daño corporal; la económica limita recursos; y el abandono material es una forma de omisión o negligencia.
-Pregunta #9: Cuando progenitores, custodios, guardadores o tutores ponen en peligro la integridad física o psicológica de una niña, niño o adolescente, ¿qué tipo de violencia se considera?
-A) Violencia contra la niñez y adolescencia.
-B) Violencia política.
-C) Violencia laboral.
-D) Violencia mediática.
-Respuesta correcta: A) Violencia contra la niñez y adolescencia
-Justificación: La violencia contra niñas, niños y adolescentes se configura cuando las personas responsables de su cuidado, protección o custodia, mediante acción, omisión o supresión, amenazan o lesionan su integridad física, psicológica o sexual. Esta categoría se determina por la relación de protección existente y por la afectación de derechos de la persona menor de edad. Las otras respuestas corresponden a ámbitos diferentes y no describen el vínculo entre la víctima y las personas encargadas de garantizar su bienestar.
-Pregunta #10: ¿Cuál de los siguientes grupos está compuesto por delitos contra la libertad sexual identificados en la guía?
-A) Calumnia, difamación, injuria y amenazas.
-B) Hurto, robo, estafa y apropiación indebida.
-C) Abandono, incumplimiento familiar y evasión.
-D) Violación, abuso sexual, estupro y trata de personas con fines sexuales.
-Respuesta correcta: D) Violación, abuso sexual, estupro y trata de personas con fines sexuales
-Justificación: La guía presenta como conductas vinculadas con la violencia sexual delitos como violación, abuso sexual, estupro y trata de personas con fines de explotación sexual, entre otros. Todos vulneran la libertad, integridad y autonomía sexual de la víctima. La opción A contiene delitos contra el honor o la seguridad; la B incluye delitos patrimoniales; y la C agrupa conductas relacionadas con obligaciones familiares, pero no delitos específicamente sexuales.
-Pregunta #11: La definición que señala que el conflicto surge por desacuerdos sobre recursos materiales o simbólicos, incompatibilidad de metas o divergencia de intereses corresponde a:
-A) Johan Galtung.
+B) Con el hipotálamo y el tronco encefálico.
+C) Con el cerebelo y las áreas motoras primarias.
+D) Con la amígdala y los centros de regulación vegetativa.
+
+Respuesta correcta: A) Con las áreas visuales y auditivas.
+
+Justificación: El documento de neuroaprendizaje vincula la codificación y el registro de la información con las áreas visuales y auditivas, porque gran parte de la información educativa ingresa mediante estos canales sensoriales y se transforma en representaciones utilizables por la memoria. El hipotálamo y el tronco encefálico —B— regulan principalmente funciones vitales y homeostáticas. El cerebelo y las áreas motoras —C— participan especialmente en coordinación y aprendizaje motor. La amígdala —D— interviene en la valoración emocional y consolidación de recuerdos asociados con emociones, pero no constituye la respuesta específica solicitada.
+
+Pregunta #6: La motivación es de particular interés para los psicólogos educativos debido al papel crucial que juega en el aprendizaje de los estudiantes. Los teóricos han expresado diferentes puntos de vista sobre la motivación. ¿Cuáles son las tres corrientes sobresalientes que se identifican?
+
+A) Conductista, cognitiva y humanista.
+B) Psicoanalítica, sociológica y neurobiológica.
+C) Constructivista, conectivista y ecológica.
+D) Experimental, psicométrica y fenomenológica.
+
+Respuesta correcta: A) Conductista, cognitiva y humanista.
+
+Justificación: El capítulo sobre motivación distingue tres perspectivas sobresalientes. La conductista explica la motivación mediante recompensas, refuerzos y consecuencias externas; la cognitiva la relaciona con expectativas, atribuciones, metas y percepciones de competencia; y la humanista se centra en necesidades, desarrollo personal y autorrealización. La B reúne campos que estudian la motivación, pero no corresponde a la clasificación del texto. La C mezcla teorías generales del aprendizaje. La D enumera enfoques metodológicos y epistemológicos, no las tres corrientes motivacionales identificadas.
+
+Pregunta #7: Una docente de un instituto denuncia que su esposo le retiro el acceso a la cuenta bancaria conjunta, le confiscé su salario mensual argumentando que él «administra mejor el dinero» y le impide comprar sus propios materiales de trabajo. ¿Qué tipo de violencia describe esta situación?
+
+A) Violencia psicológica ejercida mediante desvalorización y control emocional.
+B) Violencia patrimonial y económica ejercida mediante control de ingresos y recursos.
+C) Violencia laboral manifestada mediante restricción del ejercicio profesional.
+D) Violencia simbólica basada en la reproducción de estereotipos familiares.
+
+Respuesta correcta: B) Violencia patrimonial y económica ejercida mediante control de ingresos y recursos.
+
+Justificación: El artículo 7, numeral 10, de la Ley N.º 348 define la violencia patrimonial y económica como toda acción u omisión que afecta los bienes, ingresos, patrimonio o recursos de una mujer, incluida la limitación o control de sus ingresos. Retirar el acceso a la cuenta y confiscar el salario son actos directos de control económico. La A puede coexistir, pero no describe el elemento predominante del caso. La C no corresponde porque la conducta no proviene del empleador ni se desarrolla en la relación laboral. La D explica el trasfondo cultural, pero no sustituye la tipificación legal específica.
+
+Pregunta #8: La «Guía para la Identificación y Denuncia de la Violencia Intrafamiliar en el Ámbito Educativo» refiere que un acto de naturaleza intencionada o cuálquier esfuerzo que trata de socavar la valoracion que tiene la niña, el niño y/o adolescente de si mismo es:
+
+A) Violencia física.
+B) Violencia psicológica o emocional.
+C) Violencia por negligencia.
+D) Violencia sexual.
+
+Respuesta correcta: B) Violencia psicológica o emocional.
+
+Justificación: La Guía define la violencia psicológica o emocional como un acto intencionado o esfuerzo orientado a socavar la valoración que la niña, niño o adolescente tiene de sí mismo. Puede manifestarse mediante humillación, amenazas, desprecio, rechazo, aislamiento o descalificación. La violencia física —A— afecta corporalmente. La negligencia —C— se produce por omisión de cuidados y protección. La violencia sexual —D— implica acciones de naturaleza sexual, abuso de poder o vulneración de la libertad e integridad sexual.
+
+Pregunta #9: Según la «Guía para la Identificación y Denuncia de Violencia Intrafamiliar en el Ámbito Educativo», cuando progenitores, encargados de su custodia, guardadores o tutores ponen en peligro la integridad física o psicológica de la niña, niño o adolescente, ¿qué tipo de violencia se considera?
+
+A) Conflicto familiar con repercusiones educativas.
+B) Violencia contra la niña, niño o adolescente en el ámbito familiar.
+C) Violencia institucional producida por incumplimiento de deberes.
+D) Riesgo social derivado de prácticas inadecuadas de crianza.
+
+Respuesta correcta: B) Violencia contra la niña, niño o adolescente en el ámbito familiar.
+
+Justificación: Cuando quienes tienen deberes de cuidado, guarda o tutela realizan acciones u omisiones que ponen en peligro la integridad física o psicológica de una niña, niño o adolescente, existe violencia intrafamiliar o maltrato contra la niñez y adolescencia. La A minimiza el hecho al tratarlo como simple desacuerdo. La C se refiere a actuaciones de instituciones o servidores en ejercicio de funciones. La D puede describir una situación preventiva, pero no expresa la calificación del acto cuando ya se vulnera o pone en peligro la integridad de la víctima.
+
+Pregunta #10: Considerando la violencia por acción, la tabla de tipologías de violencia sexual y los delitos contra la libertad sexual, ¿cuáles de los siguientes enunciados corresponden a delitos, según la «Guía para la Identificación y Denuncia de la Violencia Intrafamiliar en el Ámbito Educativo»?
+
+A) Violación, abuso sexual, estupro, acoso sexual y trata de personas con fines de explotación sexual.
+B) Seducción, enamoramiento adolescente, contacto afectivo y comunicación privada consentida.
+C) Omisión de asistencia, abandono material, negligencia educativa y descuido familiar.
+D) Amenaza, descalificación, aislamiento, chantaje emocional y rechazo afectivo.
+
+Respuesta correcta: A) Violación, abuso sexual, estupro, acoso sexual y trata de personas con fines de explotación sexual.
+
+Justificación: La tabla de la Guía identifica como delitos de violencia sexual, entre otros, la violación, el abuso sexual, el estupro, el acoso sexual y la trata de personas con fines de explotación sexual. La B reúne conductas que deben analizarse según edad, consentimiento y relación de poder, pero no todas constituyen automáticamente los delitos enumerados. La C pertenece principalmente a violencia por omisión o negligencia. La D corresponde a manifestaciones de violencia psicológica.
+
+Preguntas 11 a 20
+Pregunta #11: La siguiente definicion de conflicto: «El conflicto ocurre cuando las partes se hallan en desacuerdo con respecto a la distribución de recursos materiales 0 simbdlicos y actúan movidas por la incompatibilidad de metas o por una profunda divergencia de intereses.» corresponde a:
+
+A) Morton Deutsch.
 B) Marc Howard Ross.
-C) Jean Piaget.
-D) Lawrence Kohlberg.
-Respuesta correcta: B) Marc Howard Ross
-Justificación: Marc Howard Ross explica el conflicto como una situación en la que las partes se encuentran en desacuerdo respecto de la distribución de recursos materiales o simbólicos y actúan desde metas incompatibles o intereses divergentes. Galtung es una referencia central en estudios de paz y violencia estructural, pero la formulación transcrita corresponde a Ross. Piaget y Kohlberg se relacionan principalmente con el desarrollo cognitivo y moral, respectivamente.
-Pregunta #12: ¿Qué condiciones necesita un estudiante para que su sistema límbico funcione favorablemente durante el aprendizaje?
-A) Presión constante, competencia y sanciones inmediatas.
-B) Ausencia total de desafíos cognitivos.
-C) Seguridad emocional, motivación, experiencias agradables y bajo nivel de amenaza.
-D) Repetición memorística sin interacción social.
-Respuesta correcta: C) Seguridad emocional, motivación, experiencias agradables y bajo nivel de amenaza
-Justificación: El sistema límbico participa en las emociones, la motivación y la consolidación de recuerdos. Cuando el estudiante percibe amenaza, la amígdala activa respuestas de estrés y aumenta la liberación de cortisol, dificultando que la información llegue eficientemente a la corteza y a la memoria de largo plazo. En cambio, un ambiente seguro, estimulante y emocionalmente positivo favorece la atención y la consolidación. La ausencia total de desafíos tampoco es adecuada, porque puede producir aburrimiento; lo conveniente es plantear retos alcanzables.
-Pregunta #13: ¿Cuál afirmación distingue correctamente las acciones internas y externas de prevención de la violencia que corresponden a directoras y directores?
-A) Todas las acciones deben ser delegadas a la Policía.
-B) La dirección solo debe intervenir después de una sentencia judicial.
-C) Las acciones internas corresponden exclusivamente al maestro de curso y las externas a los padres.
-D) La dirección organiza medidas preventivas dentro de la comunidad educativa y coordina con instituciones externas cuando la protección integral lo requiere.
-Respuesta correcta: D) La dirección organiza medidas preventivas dentro de la comunidad educativa y coordina con instituciones externas cuando la protección integral lo requiere
-Justificación: Entre las medidas internas se encuentran la socialización de normas, elaboración de planes de convivencia, sensibilización, formación del personal, identificación de riesgos y promoción del buen trato. Las medidas externas comprenden la coordinación con Defensorías de la Niñez y Adolescencia, servicios de salud, Policía, Ministerio Público u otras instancias competentes, según la naturaleza del caso. El protocolo boliviano adopta un enfoque de corresponsabilidad y articulación interinstitucional. La dirección no puede delegar íntegramente su responsabilidad ni esperar una sentencia para implementar acciones de protección.
-Pregunta #14: En el aprendizaje basado en proyectos, ¿qué dos tareas definen la fase conclusiva?
-A) Seleccionar el tema y formar los grupos.
-B) Presentar o socializar el producto y evaluar-reflexionar sobre el proyecto.
-C) Buscar bibliografía y formular hipótesis.
-D) Asignar roles y elaborar el cronograma.
-Respuesta correcta: B) Presentar o socializar el producto y evaluar-reflexionar sobre el proyecto
-Justificación: La fase final no se limita a entregar un producto. Comprende, por una parte, su presentación, exposición, debate o socialización ante una audiencia y, por otra, la evaluación y reflexión sobre el resultado y el proceso seguido. El texto de Sáez López indica que el estudiante debe entregar un informe, presentar el proyecto y debatirlo; además, el aprendizaje por proyectos implica programar, ejecutar y evaluar proyectos. Las otras opciones corresponden a las fases iniciales de planificación o desarrollo.
-Pregunta #15: Cuando una entidad pública es condenada judicialmente al pago de daños y perjuicios, ¿cuál es la finalidad de la auditoría que debe efectuar o contratar la entidad que ejerce tuición?
-A) Determinar únicamente si existió insuficiencia presupuestaria.
-B) Calcular un nuevo salario para la autoridad responsable.
-C) Obtener evidencia para establecer si existen indicios de responsabilidad ejecutiva y sustentar el dictamen correspondiente.
-D) Reabrir el proceso judicial que produjo la condena.
-Respuesta correcta: C) Obtener evidencia para establecer si existen indicios de responsabilidad ejecutiva y sustentar el dictamen correspondiente
-Justificación: La auditoría debe determinar las causas administrativas que ocasionaron la condena y reunir evidencia suficiente para establecer si existen indicios de responsabilidad ejecutiva de las autoridades o servidores involucrados. Esa información permite que la Contraloría emita, cuando corresponda, el dictamen respectivo. El artículo 57 del Reglamento de la Responsabilidad por la Función Pública regula este procedimiento. La auditoría no modifica la sentencia ni tiene como objeto principal reorganizar salarios o presupuestos.
-Pregunta #16: Además de procurar la eficiencia de los sistemas de administración, ¿qué deben hacer los sistemas de Control Interno y de Control Externo Posterior?
-A) Evaluar los resultados de la gestión considerando las políticas gubernamentales y los sistemas nacionales de planificación e inversión pública.
-B) Sustituir a las máximas autoridades ejecutivas.
-C) Autorizar directamente todas las contrataciones públicas.
-D) Elaborar las leyes presupuestarias nacionales.
-Respuesta correcta: A) Evaluar los resultados de la gestión considerando las políticas gubernamentales y los sistemas nacionales de planificación e inversión pública
-Justificación: La Ley N.º 1178 establece que el control gubernamental debe mejorar la eficiencia en la captación y utilización de recursos, la confiabilidad de la información y la rendición de cuentas. También debe evaluar los resultados de la gestión considerando las políticas gubernamentales definidas por los sistemas nacionales de Planificación e Inversión Pública. Los órganos de control no reemplazan a las autoridades responsables de administrar ni legislan sobre el presupuesto.
-Pregunta #17: Según Sáez López, ¿cuál es un aspecto clave del aprendizaje activo que los estudiantes deben reconocer?
-A) Que aprender consiste principalmente en escuchar al profesor.
-B) Que las calificaciones son el único indicador de aprendizaje.
-C) Que toda actividad práctica produce por sí sola aprendizaje profundo.
-D) Que deben hablar y escribir sobre lo aprendido, relacionarlo con experiencias anteriores y aplicarlo a su vida.
-Respuesta correcta: D) Que deben hablar y escribir sobre lo aprendido, relacionarlo con experiencias anteriores y aplicarlo a su vida
-Justificación: En el aprendizaje activo, el estudiante procesa y transforma la información: la explica, discute, escribe, relaciona con conocimientos previos y aplica en nuevas situaciones. De esa manera, el contenido deja de ser información externa y pasa a formar parte de su estructura cognitiva. El texto señala que los estudiantes deben hacer de lo aprendido una parte de sí mismos, vinculándolo con sus experiencias y acciones. La simple actividad física no garantiza aprendizaje si no existe reflexión y construcción de significado.
-Pregunta #18: ¿Cómo puede manifestarse en el aula la reacción de amenaza activada por la amígdala?
-A) Únicamente como aumento del razonamiento lógico.
-B) Como agresividad, oposición, confrontación, huida, retraimiento o bloqueo.
-C) Exclusivamente como sueño profundo.
-D) Como mejora automática de la memoria de largo plazo.
-Respuesta correcta: B) Como agresividad, oposición, confrontación, huida, retraimiento o bloqueo
-Justificación: La percepción de amenaza activa respuestas defensivas de lucha, huida o paralización. En el aula, la lucha puede aparecer como irritabilidad, desafío, discusión o agresión; la huida, como evasión de la tarea, ausentismo, retraimiento o deseo de abandonar la situación; y el bloqueo, como incapacidad momentánea de responder. El documento señala que la activación intensa de la amígdala coloca al cerebro en modo de supervivencia y reduce la actividad de los centros cognitivos. Por ello, la conducta no debe interpretarse automáticamente como simple indisciplina.
-Pregunta #19: ¿Cuál de las siguientes expresiones corresponde a una de las siete claves para la crianza positiva y afectiva?
-A) Castigue inmediatamente todo error para evitar su repetición.
-B) Compare permanentemente a sus hijas e hijos con otros niños.
-C) Valore y estimule la autoestima y seguridad de sus hijas e hijos.
-D) Evite explicar las normas para conservar la autoridad.
-Respuesta correcta: C) Valore y estimule la autoestima y seguridad de sus hijas e hijos
-Justificación: La crianza positiva se basa en afecto, comunicación, límites comprensibles, respeto y fortalecimiento de la autoestima. La guía incluye expresamente la recomendación de valorar y estimular la autoestima y seguridad de hijas e hijos. Los castigos, comparaciones y normas arbitrarias pueden producir miedo, humillación o inseguridad y contradicen el enfoque de protección integral y buen trato.
-Pregunta #20: En el modelo pedagógico tradicional, ¿cuál es la finalidad principal de la evaluación?
-A) Comprobar la reproducción de contenidos, medir resultados y clasificar o certificar al estudiante.
-B) Transformar continuamente la enseñanza mediante evaluación participativa.
-C) Desarrollar exclusivamente procesos de autoevaluación comunitaria.
-D) Analizar integralmente las dimensiones del Ser, Saber, Hacer y Decidir.
-Respuesta correcta: A) Comprobar la reproducción de contenidos, medir resultados y clasificar o certificar al estudiante
-Justificación: En el modelo tradicional, la enseñanza se centra en la transmisión de conocimientos y la evaluación verifica cuánto puede reproducir o recordar el estudiante. Predomina una función sumativa, selectiva y certificadora, generalmente mediante exámenes al final del proceso. Las opciones B, C y D corresponden a enfoques formativos, participativos o sociocomunitarios, en los que la evaluación se utiliza para retroalimentar y mejorar el aprendizaje.
-Pregunta #21: ¿Cuál es una de las finalidades del Escalafón Nacional del Servicio de Educación?
-A) Registrar únicamente las sanciones disciplinarias.
-B) Centralizar y mantener información personal y profesional para regular la carrera docente y administrativa.
-C) Reemplazar los concursos de méritos por designaciones directas.
-D) Administrar exclusivamente los recursos económicos de las unidades educativas.
-Respuesta correcta: B) Centralizar y mantener información personal y profesional para regular la carrera docente y administrativa
-Justificación: El Escalafón organiza un registro sistemático y permanente de la información personal y profesional del personal educativo. Sobre esa base regula el ingreso, la continuidad, las categorías, jerarquías, promociones, antigüedad y reconocimiento de méritos. El documento adjunto identifica esta finalidad en los artículos 1, 2 y 3 del Reglamento del Escalafón. No se limita a sanciones o salarios ni elimina los procedimientos de selección y promoción.
-Pregunta #22: ¿Por qué el funcionamiento de la amígdala influye de manera determinante en el aprendizaje?
-A) Porque produce directamente todos los conocimientos conceptuales.
-B) Porque sustituye completamente al hipocampo.
-C) Porque controla exclusivamente los movimientos voluntarios.
-D) Porque actúa como filtro emocional: la seguridad favorece el acceso a la corteza y el estrés intenso puede bloquearlo.
-Respuesta correcta: D) Porque actúa como filtro emocional: la seguridad favorece el acceso a la corteza y el estrés intenso puede bloquearlo
-Justificación: La amígdala evalúa el significado emocional de los estímulos. Cuando detecta peligro, activa cortisol y otras respuestas de supervivencia, disminuyendo la actividad de los centros cognitivos y dificultando el paso de la información hacia la corteza y la memoria de largo plazo. Cuando el ambiente es seguro y motivador, participa en la consolidación de aprendizajes vinculados con emociones positivas. Por tanto, normas claras, respeto y desafíos alcanzables reducen la amenaza sin eliminar el esfuerzo cognitivo.
-Pregunta #23: ¿Qué estrategia se utiliza durante el desarrollo de la instrucción para mantener la atención, identificar información principal y favorecer la conceptualización?
+C) Juan Carlos Torrego.
+D) John Paul Lederach.
+
+Respuesta correcta: B) Marc Howard Ross.
+
+Justificación: La definición corresponde a Marc Howard Ross, quien relaciona el conflicto con desacuerdos sobre la distribución de recursos materiales o simbólicos, incompatibilidad de metas y divergencia de intereses. Morton Deutsch —A— lo define en términos de actividades incompatibles, donde una interfiere con otra. Torrego —C— incorpora posiciones, intereses, necesidades, deseos, valores y emociones. Lederach —D— se concentra especialmente en el análisis, regulación y transformación constructiva del conflicto.
+
+Pregunta #12: Considerando que las emociones inciden positiva o negativamente en el aprendizaje, ¿qué condiciones necesita un estudiante para que el sistema limbico funcióne correctamente?
+
+A) Interacción social, buenos vínculos, bienestar emocional, reconocimiento y un ambiente motivador y contenedor.
+B) Silencio constante, actividades individuales, control de estímulos afectivos y evaluación frecuente.
+C) Exigencia académica elevada, competencia entre pares y recompensas asociadas al rendimiento.
+D) Rutinas invariables, neutralidad emocional y reducción de la participación espontánea.
+
+Respuesta correcta: A) Interacción social, buenos vínculos, bienestar emocional, reconocimiento y un ambiente motivador y contenedor.
+
+Justificación: El modelo del cerebro triuno presentado en Neurociencias. Neuroaprendizaje señala que el cerebro mamífero o límbico necesita interacción social, buenos vínculos, bienestar emocional, reconocimiento, contención e implicación afectiva. Estas condiciones favorecen la motivación y permiten que la información alcance las áreas corticales. La B restringe la interacción; la C puede aumentar ansiedad y comparación; y la D desconoce la importancia de la emoción, la novedad y los vínculos en la disposición cerebral para aprender.
+
+Pregunta #13: Entre las responsabilidades de prevención de la violencia asignadas a directoras y directores de unidades educativas, existe una distinción entre acciones que involucran exclusivamente a actores internos de la comunidad educativa y acciones que necesariamente requieren la intervención de actores externos.;¿Cuál de las siguientes afirmaciones es correcta?
+
+A) La prevención interna comprende planificación, sensibilización y vigilancia institucional; la coordinación externa procede cuando el riesgo o el caso exige intervención especializada y protección.
+B) La prevención corresponde a la unidad educativa, mientras que la actuación y denuncia deben quedar bajo responsabilidad de las familias.
+C) Las acciones internas se limitan a aplicar sanciones disciplinarias y las externas se activan después de comprobar plenamente la responsabilidad.
+D) La coordinación externa reemplaza las obligaciones de protección de la dirección desde el momento en que se presenta una denuncia.
+
+Respuesta correcta: A) La prevención interna comprende planificación, sensibilización y vigilancia institucional; la coordinación externa procede cuando el riesgo o el caso exige intervención especializada y protección.
+
+Justificación: El Protocolo asigna a directoras y directores acciones internas como organizar medidas preventivas, elaborar instrumentos de convivencia, sensibilizar, supervisar espacios y garantizar condiciones de protección. También deben articular con Defensorías de la Niñez y Adolescencia, salud, Policía, Fiscalía u otras instancias cuando la situación lo requiera. La B transfiere indebidamente obligaciones institucionales a las familias. La C exige una comprobación que no corresponde a la escuela y retrasaría la protección. La D desconoce que la dirección mantiene deberes de resguardo, registro, comunicación y seguimiento.
+
+Pregunta #14: En el diseño del aprendizaje basado en proyectos, la etapa final contempla dos táreas simultaneas e inseparables. ¿Cuáles son esas dos táreas que definen la fase conclusiva de dicho disefho?
+
+A) Presentar o socializar el producto y evaluar reflexivamente el proceso y los aprendizajes alcanzados.
+B) Entregar el informe escrito y asignar una calificación individual a cada integrante.
+C) Exponer los resultados y seleccionar un nuevo problema para el siguiente proyecto.
+D) Verificar el cumplimiento del cronograma y archivar las evidencias producidas por el grupo.
+
+Respuesta correcta: A) Presentar o socializar el producto y evaluar reflexivamente el proceso y los aprendizajes alcanzados.
+
+Justificación: En la fase final del aprendizaje basado en proyectos se comunica o presenta el producto elaborado y, paralelamente, se evalúan el proceso, la participación, las decisiones, dificultades y aprendizajes. Estas tareas son inseparables porque el producto muestra lo realizado, mientras la reflexión permite comprender cómo se aprendió. La B reduce la evaluación a calificación y documento. La C incorpora una actividad posterior que no define necesariamente el cierre. La D corresponde al control administrativo y no expresa la función pedagógica completa de la fase conclusiva.
+
+Pregunta #15: Cuando una entidad pública es condenada judicialmente al pago de daños y perjuicios, ¿cuál es la finalidad específica de la auditoria que debe efectuar o contratar la entidad que ejerce tuicion?
+
+A) Revisar la legalidad de la sentencia y solicitar su modificación ante el mismo órgano jurisdiccional.
+B) Determinar si la condena se originó en acciones u omisiones de servidores públicos y aportar elementos para establecer responsabilidades.
+C) Calcular el monto que debe incorporarse al presupuesto de la siguiente gestión institucional.
+D) Verificar si la parte demandante cumplió sus obligaciones contractuales antes de recibir el pago.
+
+Respuesta correcta: B) Determinar si la condena se originó en acciones u omisiones de servidores públicos y aportar elementos para establecer responsabilidades.
+
+Justificación: El artículo 57 del D.S. N.º 23318-A establece que, cuando el Estado es condenado al pago de daños y perjuicios, la entidad que ejerce tuición debe efectuar o contratar una auditoría para identificar si la condena tuvo origen en acción u omisión de servidores públicos y proporcionar elementos para determinar la responsabilidad correspondiente. La A atribuye a la auditoría facultades judiciales. La C se limita al efecto presupuestario. La D puede examinarse como antecedente, pero no constituye la finalidad específica fijada por el Reglamento de la Responsabilidad por la Función Pública.
+
+Pregunta #16: Además de procurar la eficiencia de los sistemas de administracion, ¿qué deben hacer los sistemas de Control Interno y de Control Externo Posterior?
+
+A) Evaluar los resultados de la gestión considerando las políticas, planes, programas y presupuestos institucionales.
+B) Autorizar cada operación administrativa antes de que sea ejecutada por las unidades responsables.
+C) Sustituir a la máxima autoridad en la adopción de decisiones sobre el uso de los recursos públicos.
+D) Elaborar la programación operativa y distribuir el presupuesto entre las unidades organizacionales.
+
+Respuesta correcta: A) Evaluar los resultados de la gestión considerando las políticas, planes, programas y presupuestos institucionales.
+
+Justificación: La Ley N.º 1178 dispone que el control gubernamental, además de contribuir a la eficiencia administrativa, evalúe los resultados de la gestión en relación con políticas gubernamentales, planificación, programas, metas y recursos. La B vulnera la prohibición de que unidades de auditoría ejerzan control previo sobre operaciones bajo responsabilidad de la administración. La C elimina la responsabilidad de la máxima autoridad. La D pertenece a los sistemas de Programación de Operaciones y Presupuesto, no a Control Interno o Externo Posterior.
+
+Pregunta #17: Según el libro «Estilos de Aprendizaje y Métodos de Enseñanza», icuál es el aspecto clave del aprendizaje activo que los estudiantes deben reconocer?
+
+A) La cantidad de información que pueden reproducir al finalizar la explicación.
+B) Lo que saben, lo que no saben y aquello que todavía necesitan aprender.
+C) El nivel de rendimiento que alcanzan respecto del promedio del curso.
+D) La secuencia exacta de procedimientos establecida por el docente.
+
+Respuesta correcta: B) Lo que saben, lo que no saben y aquello que todavía necesitan aprender.
+
+Justificación: El texto afirma que saber «lo que uno sabe y no sabe» enfoca el aprendizaje. La retroalimentación y la reflexión permiten que el estudiante reconozca sus conocimientos, necesidades y formas de mejorar, fortaleciendo la metacognición. La A reduce el aprendizaje a reproducción. La C centra la atención en comparación externa y no en autorregulación. La D puede ser útil en determinados procedimientos, pero no constituye el aspecto clave del aprendizaje activo indicado por el autor.
+
+Pregunta #18: Desde la neurociencia educativa, cuando la amigdala detecta una amenaza activa una respuesta de lucha liberando cortisol y adrenalina, generando reacciones observables en el estudiante. ¿De qué formas puede manifestarse dicha reacción en el aula?
+
+A) Mediante oposición, irritabilidad, confrontación o agresividad ofensiva o defensiva.
+B) Mediante reflexión prolongada, búsqueda de alternativas y regulación consciente de la conducta.
+C) Mediante aumento de curiosidad, exploración espontánea y disposición para asumir desafíos.
+D) Mediante relajación corporal, disminución de la alerta y apertura hacia nueva información.
+
+Respuesta correcta: A) Mediante oposición, irritabilidad, confrontación o agresividad ofensiva o defensiva.
+
+Justificación: El capítulo dedicado a la amígdala explica que la respuesta de lucha puede ser ofensiva o defensiva. En el aula puede observarse como irritabilidad, confrontación, desafío, oposición o agresividad. La B requiere intervención de funciones prefrontales y autorregulación, procesos que pueden disminuir durante una reacción amigdalina intensa. La C corresponde a un ambiente percibido como seguro y motivador. La D describe un estado de calma incompatible con la activación del sistema de amenaza y la liberación de cortisol y adrenalina.
+
+Pregunta #19: ¿Cual de las siguientes opciones corresponde exactamente a una de las siete claves para la crianza positiva y afectiva en el hogar, según la «Guía para la Identificación y Denuncia de la Violencia Intrafamiliar en el Ámbito Educativo»?
+
+A) Controlar de manera constante las decisiones de niñas y niños para reducir situaciones de riesgo.
+B) Valorar y estimular su autoestima y seguridad mediante afecto, reconocimiento y respeto.
+C) Establecer recompensas materiales para asegurar el cumplimiento de las responsabilidades familiares.
+D) Evitar que expresen desacuerdos hasta que puedan comprender las razones de las personas adultas.
+
+Respuesta correcta: B) Valorar y estimular su autoestima y seguridad mediante afecto, reconocimiento y respeto.
+
+Justificación: Entre las claves de crianza positiva y afectiva se encuentra valorar, reconocer y fortalecer la autoestima y seguridad de niñas, niños y adolescentes. La crianza positiva se basa en afecto, respeto, comunicación y límites protectores sin violencia. La A confunde protección con control excesivo. La C basa la responsabilidad en premios externos. La D niega la expresión y participación de niñas y niños, contrariando el enfoque de derechos y el diálogo familiar promovido por la Guía.
+
+Pregunta #20: En el modelo pedagégico tradicional, ¿cuál de las siguientes describe con mayor precisién la finalidad principal que se asigna al proceso de evaluación del aprendizaje estudiantil?
+
+A) Comprender cómo el estudiante transforma su realidad mediante saberes comunitarios y productivos.
+B) Comprobar la reproducción y dominio de los conocimientos transmitidos, clasificando y acreditando el rendimiento.
+C) Regular colectivamente el proceso pedagógico mediante autoevaluación y evaluación comunitaria.
+D) Identificar potencialidades integrales para reajustar permanentemente la práctica educativa.
+
+Respuesta correcta: B) Comprobar la reproducción y dominio de los conocimientos transmitidos, clasificando y acreditando el rendimiento.
+
+Justificación: En el modelo tradicional, el docente transmite un saber previamente definido y la evaluación verifica cuánto puede reproducir el estudiante, frecuentemente mediante exámenes, calificaciones y clasificación. La A responde al horizonte sociocomunitario productivo. La C incorpora participación y autorregulación. La D expresa una evaluación formativa e integral. En el SEP vigente, la evaluación supera esta visión tradicional al considerar dimensiones integrales, procesos, participación y decisiones para mejorar el aprendizaje, conforme a la Ley N.º 070 y la normativa de evaluación.
+
+Preguntas 21 a 30
+Pregunta #21: ¿Cuál es una de las finalidades del Escalafóén Nacional del Servicio de Educación?
+
+A) Controlar exclusivamente la asistencia mensual del personal docente y administrativo.
+B) Centralizar el registro del personal y regular la carrera, categorías, jerarquías, promociones, antigüedad y méritos.
+C) Transferir a las organizaciones sindicales la designación de autoridades educativas.
+D) Establecer un régimen salarial independiente para cada distrito educativo del país.
+
+Respuesta correcta: B) Centralizar el registro del personal y regular la carrera, categorías, jerarquías, promociones, antigüedad y méritos.
+
+Justificación: Los artículos 1, 2 y 3 del Reglamento del Escalafón establecen que este sistema mantiene un registro permanente y centralizado de los datos personales y profesionales y regula la carrera docente y administrativa mediante categorías, jerarquías, promociones, antigüedad y méritos. La A reduce sus funciones a asistencia. La C atribuye a los sindicatos competencias de designación que no contiene el Reglamento. La D contradice la finalidad de uniformar y centralizar la información del servicio educativo nacional.
+
+Pregunta #22: Un maestro disefa un aula con normás claras, trato respetuoso y actividades desafiantes pero alcanzables. Desde la neurociencia, esta decisión impacta directamente sobre el cerebro profundo. ¿Por qué el funciónamiento de la amigdala influye de manera determinante en el aprendizaje?
+
+A) Porque almacena de manera permanente todos los conocimientos conceptuales enseñados en el aula.
+B) Porque evalúa la seguridad o amenaza y puede permitir o bloquear el paso de información hacia la corteza y la memoria de largo plazo.
+C) Porque organiza las secuencias lógicas y temporales necesarias para resolver problemas abstractos.
+D) Porque regula directamente la lectura, la escritura y el cálculo mediante conexiones sensoriales especializadas.
+
+Respuesta correcta: B) Porque evalúa la seguridad o amenaza y puede permitir o bloquear el paso de información hacia la corteza y la memoria de largo plazo.
+
+Justificación: La amígdala compara los estímulos con experiencias emocionales previas. Cuando identifica amenaza, activa un modo de supervivencia, aumenta el cortisol y bloquea o dificulta el flujo de información hacia la corteza y la memoria de largo plazo. Un ambiente seguro y respetuoso reduce esa activación defensiva. La A atribuye a la amígdala una función de almacenamiento conceptual. La C corresponde principalmente a funciones ejecutivas prefrontales. La D se relaciona con redes corticales específicas, no con la función central de la amígdala.
+
+Pregunta #23: Aldiseñar una secuencia de ensenanza orientada a que el estudiante resignifique sus paradigmas y desarrolle una interpretacidn consciente de su entorno, zqué tipo de estrategia cumple con mayor precisión la función de mantener la atención del estudiante, detectar información principal y conceptualizar el contenido durante el desarrollo mismo de la instrucción?
+
 A) Estrategia preinstruccional.
-B) Estrategia postinstruccional.
-C) Estrategia coinstruccional.
-D) Estrategia exclusivamente administrativa.
-Respuesta correcta: C) Estrategia coinstruccional
-Justificación: Las estrategias coinstruccionales se aplican mientras se desarrolla el contenido. Orientan la atención del estudiante, facilitan la identificación de ideas principales, organizan relaciones conceptuales y apoyan la comprensión progresiva. Entre ellas se encuentran ilustraciones, organizadores, preguntas intercaladas, analogías, mapas y señalizaciones. Las preinstruccionales preparan al estudiante antes del contenido; las postinstruccionales permiten integrar, resumir o valorar al finalizar. La respuesta se sustenta en la clasificación didáctica contemporánea de estrategias de enseñanza, ya que esta denominación específica no está desarrollada ampliamente en los archivos adjuntos.
-Pregunta #24: Un particular presta su nombre para ocultar inmuebles y vehículos pertenecientes a un servidor público con incremento patrimonial injustificado. ¿Qué delito comete?
-A) Favorecimiento al enriquecimiento ilícito.
+B) Estrategia coinstruccional.
+C) Estrategia postinstruccional.
+D) Estrategia de evaluación sumativa.
+
+Respuesta correcta: B) Estrategia coinstruccional.
+
+Justificación: Según la clasificación de Díaz Barriga y Hernández, las estrategias coinstruccionales se aplican durante el desarrollo de la enseñanza y apoyan la detección de información principal, la atención, la codificación y la conceptualización. Las preinstruccionales —A— preparan al estudiante antes del contenido y activan conocimientos previos. Las postinstruccionales —C— permiten integrar, sintetizar y valorar lo aprendido al concluir. La evaluación sumativa —D— acredita resultados al final y no cumple específicamente la función de acompañar el procesamiento durante la instrucción.
+
+Pregunta #24: Un ciudadano particular permite que un servidor público registre a su nombre la compra de varios inmuebles y vehiculos de lujo con el propósito de ocultar el incremento patrimonial injustificado de dicho funciónario ante las autoridades investigadoras. ¿Qué delito tipificado en la normativa de lucha contra la corrupcion describe con mayor precisión la conducta del ciudadano particular?
+
+A) Enriquecimiento ilícito de particulares con afectación al Estado.
+B) Favorecimiento al enriquecimiento ilícito.
+C) Encubrimiento de bienes sujetos a registro.
+D) Legitimación de ganancias ilícitas por actividad privada.
+
+Respuesta correcta: B) Favorecimiento al enriquecimiento ilícito.
+
+Justificación: El artículo 29 de la Ley N.º 004 tipifica el favorecimiento al enriquecimiento ilícito cuando una persona facilita nombres, bienes, documentos o actos para ocultar el incremento patrimonial injustificado de un servidor público. La A exige que el particular incremente su propio patrimonio afectando al Estado. La C no es la denominación específica aplicable al supuesto planteado. La D requiere operaciones orientadas a dar apariencia lícita a recursos provenientes de delitos y posee elementos distintos.
+
+Pregunta #25: Un servidor público omite deliberadamente registrar en su declaración jurada varios inmuebles adquiridos durante el ejercicio de su función pública, con el fin de no revelar su incremento patrimonial ante las autoridades competentes.;Qué delito tipificado en la normativa de lucha contra la corrupcion describe con mayor precisión está conducta?
+
+A) Incumplimiento de deberes en la actualización de registros patrimoniales.
+B) Falsedad en la declaración jurada de bienes y rentas.
+C) Enriquecimiento ilícito de particulares con afectación al Estado.
+D) Uso indebido de información patrimonial reservada.
+
+Respuesta correcta: B) Falsedad en la declaración jurada de bienes y rentas.
+
+Justificación: El artículo 33 de la Ley N.º 004 sanciona al servidor público que falsea u omite datos económicos, financieros o patrimoniales en su declaración jurada de bienes y rentas. La A puede describir administrativamente una falta, pero no identifica el delito específico. La C se aplica a particulares cuyo incremento patrimonial afecta al Estado. La D se relacionaría con utilización indebida de información, conducta que no aparece en el caso.
+
+Pregunta #26: La servidora o el servidor público que diere a los caudales que administra, percibe o custodia, una aplicación distinta de aquella a que estuvieren destinados. ¿A qué delito corresponde esta descripcion?
+
+A) Peculado.
 B) Malversación.
-C) Cohecho pasivo propio.
-D) Incumplimiento de deberes.
-Respuesta correcta: A) Favorecimiento al enriquecimiento ilícito
-Justificación: El favorecimiento al enriquecimiento ilícito sanciona a quien facilita, encubre o presta su nombre para ocultar bienes o recursos provenientes del enriquecimiento ilícito de otra persona. El particular actúa como testaferro al permitir que los bienes se registren a su nombre para impedir que las autoridades conozcan el verdadero patrimonio del servidor público. La conducta está tipificada en el artículo 29 de la Ley N.º 004. No existe malversación porque no se cambió el destino de recursos públicos.
-Pregunta #25: Un servidor público omite deliberadamente varios inmuebles en su Declaración Jurada de Bienes y Rentas para ocultar su incremento patrimonial. ¿Qué delito describe esta conducta?
-A) Omisión de denuncia.
-B) Uso indebido de influencias.
-C) Enriquecimiento ilícito de particulares.
-D) Falsedad en la Declaración Jurada de Bienes y Rentas.
-Respuesta correcta: D) Falsedad en la Declaración Jurada de Bienes y Rentas
-Justificación: Al presentar una declaración incompleta de manera intencional, el servidor consigna una representación falsa de su patrimonio. La Ley N.º 004 tipifica la falsedad en la Declaración Jurada de Bienes y Rentas cuando se incorporan datos falsos o se omite deliberadamente información patrimonial relevante. Debe distinguirse de la simple omisión de presentar la declaración: aquí sí fue presentada, pero su contenido fue falseado.
-Pregunta #26: El servidor público que da a los caudales que administra, percibe o custodia una aplicación distinta de aquella a la que estaban destinados comete:
+C) Conducta antieconómica.
+D) Uso indebido de bienes y servicios públicos.
+
+Respuesta correcta: B) Malversación.
+
+Justificación: La malversación se configura cuando el servidor público da a los caudales que administra, percibe o custodia una aplicación diferente de aquella para la cual estaban destinados. En el peculado —A— existe apropiación de dinero, valores o bienes. La conducta antieconómica —C— exige causar daño económico mediante decisiones contrarias a los intereses institucionales. El uso indebido —D— implica utilizar bienes, servicios o trabajo de servidores públicos para fines particulares, no cambiar el destino presupuestario de caudales.
+
+Pregunta #27: La servidora 0 el servidor público que aprovechando del cargo que desempefia se apropiare de dinero, valores o bienes de cuya administracion, cobro 0 custodia se hallare encargado, sera sancionado con privacion de libertad de cinco a diez años y multa de doscientos a quinientos días. ¿A qué delito corresponde está descripcion?
+
 A) Peculado.
 B) Malversación.
 C) Concusión.
-D) Cohecho activo.
-Respuesta correcta: B) Malversación
-Justificación: La malversación consiste en cambiar indebidamente el destino legal o presupuestario de caudales públicos administrados, percibidos o custodiados por el servidor. No es necesario que el funcionario se apropie personalmente del dinero; basta con que lo aplique a un fin diferente del autorizado. En el peculado, en cambio, existe apropiación o sustracción en beneficio propio o de terceros.
-Pregunta #27: El servidor público que, aprovechándose de su cargo, se apropia de dinero, valores o bienes cuya administración, cobro o custodia le fue confiada comete:
-A) Malversación.
-B) Negociaciones incompatibles.
-C) Peculado.
-D) Conducta antieconómica.
-Respuesta correcta: C) Peculado
-Justificación: El elemento central del peculado es la apropiación de dinero, valores o bienes públicos que se encontraban bajo administración, percepción, cobro o custodia del funcionario por razón de su cargo. Se diferencia de la malversación porque en esta última el recurso continúa destinado a una actividad pública, aunque diferente de la legalmente prevista; en el peculado existe apropiación indebida.
-Pregunta #28: El director que utiliza vehículos institucionales para transportar a sus familiares durante actividades particulares comete:
-A) Uso indebido de bienes y servicios públicos.
-B) Enriquecimiento ilícito.
-C) Falsedad material.
-D) Omisión de declaración jurada.
+D) Cohecho pasivo propio.
 
-Respuesta correcta: A) Uso indebido de bienes y servicios públicos
-Justificación: Los bienes públicos solo pueden utilizarse para finalidades institucionales. Emplear vehículos, personal, combustible u otros recursos estatales para actividades familiares o privadas configura uso indebido de bienes y servicios públicos. La conducta se encuentra tipificada por la Ley N.º 004. No es necesario demostrar que el director se hizo propietario del vehículo; basta con acreditar su utilización para un beneficio particular ajeno al servicio público.
-Pregunta #29: ¿Cuál de las siguientes opciones presenta indicadores físicos evidentes de posible violencia contra niñas, niños o adolescentes?
-A) Preferencia por una asignatura y cambio de amistades.
-B) Curiosidad, participación y deseo de jugar.
-C) Buen rendimiento y comunicación familiar.
-D) Moretones, heridas, quemaduras, mordeduras o fracturas sin explicación coherente.
-Respuesta correcta: D) Moretones, heridas, quemaduras, mordeduras o fracturas sin explicación coherente
-Justificación: La guía identifica como señales físicas lesiones frecuentes o inexplicadas, hematomas, quemaduras, mordeduras, heridas, fracturas, irritaciones y otros daños corporales cuya explicación resulta ausente, contradictoria o incompatible con la lesión observada. Estos indicadores no demuestran por sí solos la existencia de violencia, pero obligan a observar, registrar, proteger y activar los procedimientos institucionales correspondientes sin interrogar de manera intimidatoria.
-Pregunta #30: ¿Qué permite el principio psicológico de “individualizar el estilo de enseñanza”?
-A) Separar definitivamente a los estudiantes de acuerdo con una prueba.
-B) Utilizar una variedad de estrategias que atienda preferencias individuales y desarrolle diferentes maneras de aprender.
-C) Aplicar una sola metodología al grupo para asegurar igualdad.
-D) Sustituir todos los objetivos curriculares por preferencias personales.
-Respuesta correcta: B) Utilizar una variedad de estrategias que atienda preferencias individuales y desarrolle diferentes maneras de aprender
-Justificación: Individualizar no significa encasillar al estudiante en una categoría fija, sino diversificar explicaciones, actividades, recursos y formas de participación. Así, cada alumno puede acceder al contenido mediante sus fortalezas y, al mismo tiempo, desarrollar modos de aprendizaje menos dominantes. El texto recomienda evaluar las características de los estudiantes y adaptar los métodos del aula. La igualdad educativa no exige una enseñanza idéntica, sino oportunidades pertinentes para alcanzar aprendizajes comunes.
-Pregunta #31: ¿Cuál es el propósito del principio “individualizar el estilo de enseñanza”?
-A) Confirmar que cada estudiante solo puede aprender de una manera.
-B) Eliminar el trabajo grupal.
-C) Facilitar el aprendizaje desde las preferencias del estudiante y ampliar su capacidad para utilizar otros estilos.
-D) Reducir los contenidos para quienes presentan dificultades.
-Respuesta correcta: C) Facilitar el aprendizaje desde las preferencias del estudiante y ampliar su capacidad para utilizar otros estilos
-Justificación: El objetivo es ajustar la mediación pedagógica a la diversidad sin convertir los estilos en etiquetas permanentes. El docente puede combinar actividades visuales, auditivas, prácticas, reflexivas, colaborativas e individuales, facilitando inicialmente el acceso y promoviendo después flexibilidad cognitiva. El documento señala que las personas procesan la información por vías preferentes, por lo que el maestro debe modificar su propia comunicación para llegar a estudiantes diferentes. No se pretende reducir expectativas ni excluir el aprendizaje cooperativo.
-Pregunta #32: Ante la escasa participación del grupo, ¿qué decisión está mejor fundamentada según Sáez López?
-A) Crear un ambiente seguro y estimulante, fortalecer la motivación intrínseca y ofrecer actividades significativas.
-B) Otorgar calificaciones altas de manera permanente, aunque no exista aprendizaje.
-C) Aplicar sanciones colectivas hasta lograr participación.
-D) Eliminar toda retroalimentación para aumentar la independencia.
-Respuesta correcta: A) Crear un ambiente seguro y estimulante, fortalecer la motivación intrínseca y ofrecer actividades significativas
-Justificación: Sáez López identifica la motivación y la seguridad psicológica como condiciones esenciales del aprendizaje. Un estudiante participa con mayor libertad cuando se siente seguro, encuentra sentido en la actividad y percibe posibilidades reales de éxito. Las notas pueden funcionar como incentivos extrínsecos circunstanciales, pero su uso permanente y desvinculado del aprendizaje puede generar dependencia, competencia o simulación. La decisión pedagógicamente sólida consiste en mejorar las condiciones, no en inflar calificaciones.
-Pregunta #33: ¿Qué caracteriza específicamente al aprendizaje multimedia?
-A) El empleo exclusivo de textos impresos.
-B) La memorización de datos mediante repetición oral.
-C) La sustitución completa del docente por una computadora.
-D) El aprendizaje mediante la combinación de estímulos visuales y auditivos.
-Respuesta correcta: D) El aprendizaje mediante la combinación de estímulos visuales y auditivos
-Justificación: El aprendizaje multimedia integra palabras habladas o escritas con imágenes, gráficos, animaciones, sonidos o videos. Su valor no reside únicamente en utilizar tecnología, sino en coordinar representaciones visuales y verbales de modo que el estudiante seleccione, organice e integre la información. Las otras opciones reducen el aprendizaje a un solo canal o suponen erróneamente que la tecnología reemplaza la mediación pedagógica. El texto de Sáez López identifica el aprendizaje multimedia por la utilización articulada de estímulos auditivos y visuales.
-Pregunta #34: ¿Qué distingue al aprendizaje episódico de otros tipos de aprendizaje?
-A) Consiste exclusivamente en adquirir movimientos automáticos.
-B) Se origina en acontecimientos particulares vinculados con un contexto personal, espacial y temporal.
-C) Se limita a memorizar definiciones generales.
-D) Carece de relación con la memoria.
-Respuesta correcta: B) Se origina en acontecimientos particulares vinculados con un contexto personal, espacial y temporal
-Justificación: El aprendizaje episódico se relaciona con acontecimientos vividos y conserva información sobre qué ocurrió, dónde, cuándo y en qué estado personal o emocional se encontraba el sujeto. Forma parte de la memoria declarativa o explícita. El documento de neuroaprendizaje distingue la memoria episódica, que registra hechos y datos personales, de la memoria semántica, que almacena conocimientos conceptuales generales. La adquisición de habilidades automáticas pertenece principalmente a la memoria procedimental.
-Pregunta #35: ¿Qué diferencia estructural existe entre el currículum formal y el currículum real?
-A) El formal pertenece a la educación privada y el real a la educación fiscal.
-B) El formal contiene únicamente valores y el real únicamente contenidos.
-C) El formal prescribe y representa lo que debería enseñarse; el real corresponde a las experiencias, tareas e interacciones que efectivamente ocurren.
-D) El formal es elaborado por estudiantes y el real por autoridades nacionales.
-Respuesta correcta: C) El formal prescribe y representa lo que debería enseñarse; el real corresponde a las experiencias, tareas e interacciones que efectivamente ocurren
-Justificación: El currículum formal se expresa en leyes, programas, planes y objetivos que anticipan la acción educativa. El currículum real es el que se desarrolla cotidianamente en el aula y se transforma por las decisiones docentes, relaciones, tiempos, condiciones y respuestas de los estudiantes. El texto explica que el currículum viaja entre teoría y práctica y cambia su significado en las mediaciones existentes entre ambas. Por ello no son idénticos ni de la misma naturaleza: uno es prescriptivo y el otro es vivido.
-Pregunta #36: ¿Cuántos objetivos de aprendizaje recomienda formular la mejor práctica para una unidad o lección?
-A) No más de seis objetivos.
-B) Al menos quince objetivos.
-C) Exactamente veinte objetivos.
-D) Un número ilimitado de objetivos.
-Respuesta correcta: A) No más de seis objetivos
-Justificación: La formulación de un número reducido de objetivos favorece claridad, coherencia y viabilidad evaluativa. El texto de Sáez López recomienda, como buena práctica, no formular más de seis objetivos de aprendizaje. Una lista excesiva fragmenta el proceso, dificulta jerarquizar lo esencial y vuelve poco realista la evaluación. El número no debe entenderse como una regla matemática absoluta para todo proceso curricular, sino como una orientación para mantener el foco pedagógico.
-Pregunta #37: Hacer de la educación una herramienta de comunicación viva, aprendizaje solidario, crítica constructiva y participación responsable para afrontar pacíficamente los conflictos constituye:
-A) Una estrategia de selección escolar.
-B) Un modelo de disciplina punitiva.
-C) Una forma de neutralidad educativa.
-D) Una finalidad de la educación para la paz y la democracia.
-Respuesta correcta: D) Una finalidad de la educación para la paz y la democracia
-Justificación: La formulación concibe la educación como una práctica transformadora que desarrolla diálogo, solidaridad, pensamiento crítico, participación ciudadana y capacidad de gestionar los conflictos sin violencia. Estos elementos corresponden a la educación para la paz, los derechos humanos y la democracia. No se propone evitar todo conflicto, sino aprender a comprenderlo y transformarlo constructivamente.
-Pregunta #38: Desde la neurociencia del aprendizaje, la depresión y la violencia son clasificadas como emociones:
+Respuesta correcta: A) Peculado.
+
+Justificación: El peculado consiste en la apropiación, aprovechando el cargo, de dinero, valores o bienes cuya administración, cobro o custodia fue confiada al servidor público. La malversación —B— supone cambiar el destino de los fondos sin apropiárselos. La concusión —C— implica exigir u obtener ilegítimamente dinero o ventajas abusando del cargo. El cohecho pasivo —D— consiste en recibir o aceptar beneficios para realizar u omitir un acto relativo a las funciones.
+
+Pregunta #28: El director de un instituto utiliza los vehiculos institucionales asignados a su entidad para trasladar a sus familiares a actividades personales durante fines de semana, argumentando que tiene acceso a dichos bienes por el ejercicio de su cargo. ¿Qué delito tipificado en la normativa de lucha contra la corrupcion describe con mayor precisión está conducta?
+
+A) Malversación de recursos institucionales.
+B) Uso indebido de bienes y servicios públicos.
+C) Peculado de uso por apropiación temporal.
+D) Conducta antieconómica por desgaste de activos.
+
+Respuesta correcta: B) Uso indebido de bienes y servicios públicos.
+
+Justificación: El artículo 26 de la Ley N.º 004 sanciona al servidor público que utiliza bienes, servicios o trabajo de servidores públicos para beneficio particular. El vehículo continúa siendo institucional, pero es empleado para fines familiares ajenos al servicio. La A se refiere a caudales con destino presupuestario diferente. La C no es la denominación utilizada por la Ley N.º 004 para este supuesto. La D exigiría demostrar un daño económico derivado de decisiones antieconómicas y no describe con igual precisión el uso personal directo.
+
+Pregunta #29: A partir de la tabla de indicadores generales en niñas, nifios y adolescentes que han sido víctimas de violencia, planteada en la «Guía para la Identificación y Denuncia de Violencia Intrafamiliar en el Ámbito Educativo»,,cuál de las siguientes opciones corresponde a signos 0 indicadores fisicos evidentes?
+
+A) Hematomas, quemaduras, fracturas, heridas o marcas corporales de origen no suficientemente explicado.
+B) Descenso del rendimiento, distracción persistente y dificultades para completar las tareas.
+C) Temor, tristeza, aislamiento, sentimiento de culpa y cambios repentinos de ánimo.
+D) Agresividad, ausentismo, consumo de sustancias y conflictos reiterados con otras personas.
+
+Respuesta correcta: A) Hematomas, quemaduras, fracturas, heridas o marcas corporales de origen no suficientemente explicado.
+
+Justificación: Los indicadores físicos evidentes comprenden lesiones, hematomas, heridas, quemaduras, fracturas, marcas o dolores recurrentes que no presentan una explicación coherente. La B corresponde al área cognitiva y académica. La C reúne indicadores emocionales. La D describe manifestaciones conductuales. La presencia de un indicador no demuestra por sí sola la violencia, pero obliga a observar, registrar y activar las medidas de protección correspondientes.
+
+Pregunta #30: Los principios psicolégicos de enseñanza pueden hacer que la enseñanza sea más eficaz y más eficiente al ayudarnos a crear las condiciones que apoyan el aprendizaje de los estudiantes. Para ello, se aconseja utilizar una variedad de principios. En particular, se puede «individualizar el estilo de enseñanza», porque permite:
+
+A) Aplicar una metodología diferente y exclusiva para cada estudiante durante toda la gestión.
+B) Atender las preferencias de aprendizaje mediante métodos variados y desarrollar también estilos menos utilizados.
+C) Clasificar a los estudiantes en grupos permanentes según su canal sensorial predominante.
+D) Reemplazar los objetivos comunes por actividades seleccionadas libremente por cada estudiante.
+
+Respuesta correcta: B) Atender las preferencias de aprendizaje mediante métodos variados y desarrollar también estilos menos utilizados.
+
+Justificación: Individualizar el estilo de enseñanza no significa crear cincuenta clases distintas, sino utilizar variedad de métodos, representaciones y actividades para facilitar el acceso desde diferentes preferencias y, al mismo tiempo, ampliar las capacidades del estudiante. La A es pedagógica y organizativamente inviable. La C convierte los estilos en etiquetas rígidas. La D elimina los propósitos comunes y confunde diferenciación metodológica con ausencia de orientación curricular.
+
+Preguntas 31 a 40
+Pregunta #31: Una maestra de secundaria nota que sus estudiantes tienen distintas formas de aprender y decide adaptar su práctica docente. Según los principios psicolégicos de la ensenanza, ¿cuál es el propósito del principio «Individualizar el estilo de enseñanza»?
+
+A) Mantener a cada estudiante dentro de su estilo preferido para evitar dificultades cognitivas.
+B) Facilitar el aprendizaje mediante diversas vías y ayudar a desarrollar formas de aprender menos dominantes.
+C) Asignar contenidos distintos a cada estudiante según sus resultados académicos anteriores.
+D) Separar al curso en grupos homogéneos y aplicar una metodología fija a cada grupo.
+
+Respuesta correcta: B) Facilitar el aprendizaje mediante diversas vías y ayudar a desarrollar formas de aprender menos dominantes.
+
+Justificación: El propósito es responder a la diversidad utilizando explicaciones, experiencias, recursos visuales, actividades prácticas, reflexión y colaboración. También busca que el alumnado desarrolle capacidades menos preferidas para aprender con mayor flexibilidad. La A limita el crecimiento al estilo dominante. La C confunde adaptación metodológica con fragmentación del currículum. La D fija etiquetas y grupos, desconociendo que las preferencias pueden variar según la tarea, el contenido y el contexto.
+
+Pregunta #32: Un maestro observa que sus grupos no participan espontaneamente, un colega le sugiere usar calificaciones altas ¿cómo incentivo permanente y otro le recomienda crear condiciones ambientales favorables. Debe decidir qué estrategia aplicar. Considerando el texto de Sáez López, ¿cuál es la decisión más fundamentada y por qué?
+
+A) Utilizar calificaciones altas de manera continua, porque el refuerzo externo garantiza motivación estable.
+B) Crear un ambiente seguro, estimulante y participativo, porque la seguridad psicológica favorece la implicación y la motivación interna.
+C) Combinar premios y sanciones para que la participación se convierta progresivamente en una obligación académica.
+D) Mantener las condiciones actuales hasta que los estudiantes desarrollen espontáneamente confianza para intervenir.
+
+Respuesta correcta: B) Crear un ambiente seguro, estimulante y participativo, porque la seguridad psicológica favorece la implicación y la motivación interna.
+
+Justificación: Sáez López considera la seguridad psicológica una condición del aprendizaje: el estudiante participa con mayor libertad cuando se siente seguro dentro de un ambiente estimulante. Las calificaciones pueden actuar como motivadores extrínsecos, pero su uso permanente puede generar dependencia y debilitar el interés intrínseco; por eso A no es la opción más fundamentada. La C convierte la participación en respuesta controlada por consecuencias. La D omite la responsabilidad docente de construir condiciones favorables para la participación.
+
+Pregunta #33: Según el libro «Estilos de Aprendizaje y Métodos de Enseñanza», ¿qué caracterizaespecíficamente al aprendizaje multimedia?
+
+A) La utilización combinada de estímulos auditivos y visuales para aprender información.
+B) La participación simultánea de varios estudiantes en una plataforma de aprendizaje.
+C) La integración de actividades teóricas, prácticas y comunitarias dentro de un proyecto.
+D) La alternancia entre materiales impresos, actividades motrices y evaluación oral.
+
+Respuesta correcta: A) La utilización combinada de estímulos auditivos y visuales para aprender información.
+
+Justificación: En la clasificación de tipos de aprendizaje, Sáez López define el aprendizaje multimedia como aquel en el que una persona utiliza estímulos auditivos y visuales para aprender información. La B describe aprendizaje colaborativo mediado por tecnología. La C corresponde a integración metodológica o aprendizaje por proyectos. La D incluye diversos recursos, pero añade componentes motrices y evaluativos que no forman parte de la definición específica del texto.
+
+Pregunta #34: ¿Qué distingue al aprendizaje episddico de otros tipos de aprendizaje?
+
+A) Es un cambio de comportamiento originado por un acontecimiento particular registrado en la memoria episódica.
+B) Es la adquisición progresiva de una habilidad mediante repetición y automatización de movimientos.
+C) Es la construcción de conocimientos generales independientes del contexto en que fueron aprendidos.
+D) Es la observación e imitación consciente de la conducta presentada por un modelo.
+
+Respuesta correcta: A) Es un cambio de comportamiento originado por un acontecimiento particular registrado en la memoria episódica.
+
+Justificación: El aprendizaje episódico surge como consecuencia de un acontecimiento específico; por ejemplo, desarrollar miedo a los perros después de una mordedura. El hecho queda asociado con la memoria episódica. La B corresponde al aprendizaje procedimental. La C se vincula con memoria semántica y conocimientos conceptuales. La D describe aprendizaje observacional o social, asociado con la teoría de Bandura.
+
+Pregunta #35: Perrenoud distingue entre currículum formal y currículum real sehalando que no son de la misma naturaleza. ¿Qué diferencia estructural fundamental explica que ambos currículos operen en planos distintos dentro del sistema educativo?
+
+A) El formal es una prescripción documental, mientras el real está constituido por las tareas, interacciones y experiencias efectivamente desarrolladas.
+B) El formal contiene conocimientos académicos y el real comprende solamente actitudes y valores aprendidos fuera del aula.
+C) El formal pertenece a la administración central y el real es elaborado íntegramente por las familias y estudiantes.
+D) El formal determina los aprendizajes obligatorios y el real corresponde únicamente a resultados no previstos.
+
+Respuesta correcta: A) El formal es una prescripción documental, mientras el real está constituido por las tareas, interacciones y experiencias efectivamente desarrolladas.
+
+Justificación: Para Perrenoud, el currículum formal expresa intenciones, programas y prescripciones, mientras el currículum real se concreta en el trabajo escolar: tiempos, tareas, interacciones, selecciones, omisiones y aprendizajes efectivamente producidos. La B divide indebidamente conocimientos y valores. La C atribuye el currículum real solo a familias y estudiantes. La D lo limita a lo imprevisto, aunque también incluye aprendizajes previstos que llegan a realizarse en la práctica.
+
+Pregunta #36: Según el texto «Estilos de Aprendizaje y Métodos de Enseñanza», gcuantos objetivos de aprendizaje recomienda la mejor práctica?
+
+A) No más de cuatro objetivos.
+B) No más de seis objetivos.
+C) Entre ocho y diez objetivos.
+D) Doce objetivos distribuidos por niveles.
+
+Respuesta correcta: B) No más de seis objetivos.
+
+Justificación: El texto indica que la mejor práctica recomienda formular no más de seis objetivos de aprendizaje, de manera que sean claros, pertinentes y evaluables. La A fija una cantidad menor que la recomendada. La C y la D producen una dispersión que dificulta priorizar, organizar actividades y comprobar el logro. El número no sustituye la calidad de la formulación: los objetivos deben expresar aprendizajes relevantes y coherentes con la metodología y la evaluación.
+
+Pregunta #37: Según «Convivencia escolar y resolución pacífica de conflictos», hacer de la educación (formal e informal) una herramienta de comunicacion viva, de aprendizaje solidario, de crítica constructiva y pensamiento abierto, capaz de suscitar transformaciones sociales a través de la participacion responsable de una ciudadania que sabe afrontar los conflictos de manera pacífica, es:
+
+A) Educación disciplinaria para el cumplimiento responsable de las normas.
+B) Educación para la paz, los derechos humanos y la ciudadanía democrática.
+C) Educación compensatoria para comunidades expuestas a situaciones de violencia.
+D) Educación moral orientada a uniformar los valores de la comunidad educativa.
+
+Respuesta correcta: B) Educación para la paz, los derechos humanos y la ciudadanía democrática.
+
+Justificación: La formulación corresponde a una educación para la paz entendida como proceso vivo, participativo, crítico y transformador, vinculado con derechos humanos, solidaridad y ciudadanía democrática. La A prioriza obediencia y control normativo. La C reduce el enfoque a determinados grupos, aunque la cultura de paz concierne a toda la sociedad. La D supone uniformidad moral, mientras la educación para la paz reconoce pluralidad, diálogo y transformación no violenta de conflictos.
+
+Pregunta #38: Desde la neurociencia del aprendizaje, la depresién y la violencia son clasificadas cómo emociones de tipo:
+
 A) Primarias.
 B) Secundarias.
 C) Neutras.
-D) Exclusivamente racionales.
-Respuesta correcta: B) Secundarias
-Justificación: Las emociones primarias comprenden respuestas básicas como alegría, tristeza, miedo, ira, sorpresa o asco. Las emociones o estados secundarios surgen de la elaboración, combinación, intensificación o permanencia de las primarias y de la historia personal y social. En el enfoque del documento, la depresión se relaciona con una prolongación o complejización de la tristeza, mientras que la violencia puede derivarse de una gestión inadecuada de la ira. El sistema límbico procesa estas respuestas y mantiene una interacción constante con la corteza.
-Pregunta #39: ¿Qué condición institucional es indispensable para que la innovación educativa se desarrolle de manera sostenida?
-A) Depender exclusivamente de una persona entusiasta.
-B) Cambiar continuamente sin evaluar resultados.
-C) Construir una cultura institucional de innovación, colaboración, reflexión y apoyo al cambio.
-D) Adquirir equipos tecnológicos sin modificar las prácticas.
-Respuesta correcta: C) Construir una cultura institucional de innovación, colaboración, reflexión y apoyo al cambio
-Justificación: Una innovación sostenible debe incorporarse a la cultura institucional y no quedar como una moda o iniciativa aislada. Requiere liderazgo, trabajo colectivo, espacios para debatir, apoyo a la experimentación, reflexión sobre la práctica, continuidad y compromiso de docentes y directivos. El texto advierte que la innovación debe convertirse en cultura y no solo en novedad pasajera. La tecnología puede apoyar el cambio, pero no lo garantiza si las prácticas pedagógicas permanecen intactas.
-Pregunta #40: ¿Qué cobertura deben alcanzar los maestros de apoyo o maestros itinerantes según el Reglamento para el Fortalecimiento de la Educación Inclusiva?
-A) Zonas de difícil acceso, dispersas, fronterizas y ribereñas, sin limitarse rígidamente a una jurisdicción, atendiendo también casos justificados que no pueden llegar a un centro de educación especial.
-B) Únicamente capitales de departamento.
-C) Solo unidades educativas privadas urbanas.
-D) Exclusivamente estudiantes que puedan trasladarse diariamente a un centro especializado.
-Respuesta correcta: A) Zonas de difícil acceso, dispersas, fronterizas y ribereñas, sin limitarse rígidamente a una jurisdicción, atendiendo también casos justificados que no pueden llegar a un centro de educación especial
-Justificación: El Reglamento aprobado mediante Resolución Ministerial N.º 0069/2025 busca que el apoyo alcance a estudiantes que viven en zonas de difícil acceso, dispersas, fronterizas o ribereñas y a quienes, por razones fortuitas, legales, de salud o extrema situación socioeconómica no atribuible a ellos, no pueden acudir al centro de educación especial más próximo. La atención depende de las necesidades educativas, del informe técnico-pedagógico y de las posibilidades institucionales. Las opciones B, C y D contradicen el principio de acceso y equiparación de condiciones.
-Pregunta #41: Una maestra presenta un caso real sobre la contaminación del río Bermejo. ¿Qué estilos de aprendizaje favorece esta técnica?
-A) Únicamente el pragmático.
-B) Solo el visual y el auditivo.
-C) Activo, teórico y reflexivo.
-D) Exclusivamente el acomodador.
-Respuesta correcta: C) Activo, teórico y reflexivo
-Justificación: La técnica descrita es el método de casos, porque acerca una situación real al aula para analizarla, investigar sus causas, contrastar información y formular interpretaciones o respuestas. Según el texto de Sáez López, el método de casos favorece los estilos activo, teórico y reflexivo. El estudiante activo participa en el análisis; el reflexivo examina perspectivas y consecuencias; y el teórico organiza explicaciones y relaciones conceptuales. El texto no incluye expresamente el estilo pragmático entre los favorecidos por esta técnica específica.
-Pregunta #42: Además de la mujer en situación de violencia, ¿a quiénes debe extenderse el servicio de atención?
-A) Solamente a sus familiares mayores de edad.
-B) Únicamente a quienes presenten una denuncia penal.
-C) Solo a los testigos del hecho.
-D) A sus hijas, hijos y otras personas dependientes que se encuentren en situación de riesgo.
-Respuesta correcta: D) A sus hijas, hijos y otras personas dependientes que se encuentren en situación de riesgo
-Justificación: La protección debe extenderse a las personas dependientes de la mujer cuando también estén expuestas al peligro o a las consecuencias de la violencia. La Ley N.º 348 establece que los servicios de atención deben ser extensivos a hijas, hijos y otras personas dependientes en condiciones de riesgo. Exigir una denuncia penal previa limitaría indebidamente la protección inmediata y dejaría sin atención a personas afectadas indirecta o directamente.
-Pregunta #43: ¿En qué dos momentos puede aplicarse el diagnóstico de habilidades del Manual de resolución de problemas?
-A) Una vez antes de cada pregunta y otra después de cada respuesta.
-B) Al inicio como evaluación previa y al final como evaluación posterior.
-C) Solo cuando el participante reprueba.
-D) Únicamente al concluir el manual.
-Respuesta correcta: B) Al inicio como evaluación previa y al final como evaluación posterior
-Justificación: La primera aplicación permite establecer una línea de base sobre las habilidades iniciales de resolución de problemas. La segunda permite comparar resultados, identificar avances y determinar qué capacidades requieren mayor fortalecimiento. El manual señala que el diagnóstico puede aplicarse dos veces con funciones equivalentes a un pretest y un postest. Aplicarlo únicamente al final impediría medir el cambio producido durante el proceso formativo.
-Pregunta #44: La afirmación de que la especie humana codificó su experiencia primero mediante la palabra y después mediante imágenes y otros signos revela principalmente:
-A) Un sesgo logocéntrico y una visión lineal de la evolución de los sistemas simbólicos.
-B) Un enfoque plenamente multimodal.
-C) La igualdad histórica de todas las formas de representación.
-D) Una valoración prioritaria del conocimiento corporal.
-Respuesta correcta: A) Un sesgo logocéntrico y una visión lineal de la evolución de los sistemas simbólicos
-Justificación: El enunciado concede primacía histórica y epistemológica a la palabra, situando la imagen, el gesto y otros signos como recursos posteriores o secundarios. Esto expresa un sesgo logocéntrico o verbalista y una interpretación lineal de la cultura. Las formas visuales, corporales, sonoras, gestuales y orales coexistieron y se combinaron mucho antes de la consolidación de la escritura escolar. Desde una lectura curricular y semiótica, no debe confundirse el predominio institucional de la escritura con una superioridad natural sobre otras formas de representación.
-Pregunta #45: Cuando una institución educativa adapta e incluso recrea la normativa externa de acuerdo con sus características concretas, esto refleja principalmente:
-A) Incumplimiento automático de la normativa.
-B) Ausencia completa de regulación curricular.
-C) Autonomía institucional y recontextualización del currículum.
-D) Privatización de las decisiones educativas.
-Respuesta correcta: C) Autonomía institucional y recontextualización del currículum
-Justificación: La normativa curricular no llega al aula de manera mecánica. Es interpretada y mediada por el centro educativo según su contexto, cultura, necesidades, recursos y proyecto institucional. Esta capacidad representa autonomía relativa y recontextualización: la institución no desconoce la prescripción nacional, sino que la concreta y recrea responsablemente. El texto de currículum distingue las decisiones adoptadas en el ámbito político, en el centro escolar y en el aula. La adaptación no equivale a incumplimiento mientras respete los principios y mínimos obligatorios.
-Pregunta #46: Según Lederach, ¿qué es la mediación?
-A) Un procedimiento por el cual una autoridad impone una sanción.
-B) Un proceso voluntario en el que una tercera persona imparcial facilita la comunicación para que las partes construyan un acuerdo.
-C) Una negociación en la que el mediador decide quién tiene la razón.
-D) Un mecanismo destinado a evitar que las partes dialoguen directamente.
-Respuesta correcta: B) Un proceso voluntario en el que una tercera persona imparcial facilita la comunicación para que las partes construyan un acuerdo
-Justificación: La persona mediadora no reemplaza a las partes ni impone una solución. Organiza la comunicación, ayuda a clarificar intereses, reduce tensiones y crea condiciones para que quienes están en conflicto formulen voluntariamente un acuerdo aceptable. La mediación se diferencia del arbitraje o de la decisión judicial porque el poder de resolver permanece principalmente en las partes.
-Pregunta #47: El cambio en la manera de formular las finalidades educativas entre el siglo XIX y la actualidad expresa:
-A) La desaparición de toda función social de la escuela.
-B) La permanencia inalterada del mismo proyecto educativo.
-C) El reemplazo completo del conocimiento por entretenimiento.
-D) Una transformación histórica del paradigma educativo y de las demandas sociales asignadas a la escuela.
-Respuesta correcta: D) Una transformación histórica del paradigma educativo y de las demandas sociales asignadas a la escuela
-Justificación: En el siglo XIX, la expansión de la escolaridad estuvo estrechamente ligada a la construcción del Estado nacional, la alfabetización, la disciplina y la homogeneización cultural. En la actualidad se incorporan finalidades como formación integral, pensamiento crítico, inclusión, ciudadanía democrática, competencias, convivencia intercultural y capacidad de aprender durante toda la vida. El currículum expresa decisiones morales, ideológicas, sociales y culturales sobre qué persona y qué sociedad se pretende formar. No es un simple cambio de vocabulario, sino una transformación histórica de expectativas y funciones.
+D) Reflejas.
+
+Respuesta correcta: B) Secundarias.
+
+Justificación: El texto diferencia las emociones primarias —miedo, aversión, sorpresa, alegría, ira y tristeza— de estados emocionales secundarios construidos por combinación, interpretación y prolongación de experiencias. Dentro de la clasificación utilizada por el documento, la depresión y la violencia aparecen como emociones o manifestaciones secundarias. La A corresponde a las seis emociones básicas de Ekman. La C no refleja su carga afectiva. La D se refiere a respuestas automáticas simples, no a estados complejos influidos por experiencia, contexto y pensamiento.
+
+Pregunta #39: ¿Cuál es una condición institucional indispensable para que la innovación educativa pueda desarrollarse de manera sostenida en los sistemas educativos?
+
+A) Un marco flexible que otorgue autonomía real, promueva colaboración y permita aprendizaje institucional.
+B) Un programa uniforme de innovaciones diseñado y controlado desde la administración central.
+C) Una sucesión frecuente de proyectos que introduzcan recursos y metodologías diferentes.
+D) Una evaluación externa centrada en verificar el cumplimiento literal de las disposiciones.
+
+Respuesta correcta: A) Un marco flexible que otorgue autonomía real, promueva colaboración y permita aprendizaje institucional.
+
+Justificación: La innovación sostenible requiere autonomía para contextualizar decisiones, trabajo colaborativo, confianza, reflexión, aprendizaje de los errores y capacidad de institucionalizar mejoras. La B favorece aplicación vertical y reduce la autoría de los actores. La C puede generar cambios aislados sin transformación cultural. La D privilegia cumplimiento formal y puede limitar la experimentación. La innovación no depende solo de novedades, sino de condiciones organizativas que permitan aprender y transformar prácticas de manera continua.
+
+Pregunta #40: ¿Qué cobertura deben alcanzar los maestros de apoyo o los maestros itinerantes, según el Reglamento para el Fortalecimiento de la Educacióén Inclusiva en el Sistema Educativo Plurinacional — Modalidad Indirecta?
+
+A) Zonas urbanas donde exista un Centro de Educación Especial y disponibilidad permanente de equipos multidisciplinarios.
+B) Zonas de difícil acceso, dispersas, fronterizas o ribereñas y casos de personas que no puedan acudir al Centro de Educación Especial.
+C) Unidades educativas fiscales situadas dentro del mismo distrito del maestro de apoyo asignado.
+D) Instituciones que cuenten previamente con infraestructura accesible y personal especializado.
+
+Respuesta correcta: B) Zonas de difícil acceso, dispersas, fronterizas o ribereñas y casos de personas que no puedan acudir al Centro de Educación Especial.
+
+Justificación: El artículo 58 del Reglamento aprobado mediante la R.M. N.º 0069/2025 dispone que los maestros de apoyo o itinerantes cubran zonas de difícil acceso, dispersas, fronterizas y ribereñas, sin limitar la atención a centros urbanos. También comprende a personas con discapacidad que, por causas justificadas, no puedan trasladarse al Centro de Educación Especial más cercano. La A restringe territorialmente el servicio. La C impone un límite distrital no acorde con la finalidad de cobertura. La D condiciona el derecho a recursos que precisamente el apoyo debe contribuir a generar.
+
+Preguntas 41 a 50
+Pregunta #41: Una maestra de Tarija presenta un caso real sobre contaminación del rio Bermejo. ¿Qué estilos favorece está técnica?
+
+A) Activo, teórico y reflexivo.
+B) Acomodador, asimilador y auditivo.
+C) Visual, verbal y lógico-matemático.
+D) Pragmático, sensorial y global.
+
+Respuesta correcta: A) Activo, teórico y reflexivo.
+
+Justificación: El método de casos aproxima una realidad concreta al aula y exige analizar información, debatir perspectivas, elaborar explicaciones y proponer decisiones. El texto señala expresamente que favorece los estilos activo —experimentación activa—, teórico —conceptualización abstracta— y reflexivo —observación reflexiva—. La B mezcla estilos de Kolb con un canal sensorial. La C corresponde a inteligencias o preferencias de representación. La D combina clasificaciones distintas y no reproduce los tres estilos indicados para el método de casos.
+
+Pregunta #42: ¿A quiénes debe ser extensivo todo servicio de atención para mujeres en situación de violencia, además de la propia mujer?
+
+A) A sus hijas e hijos y a otras personas dependientes que se encuentren en situación de riesgo.
+B) A los familiares adultos que soliciten acompañamiento durante el proceso judicial.
+C) A las personas de su entorno laboral que hayan conocido los hechos denunciados.
+D) A integrantes de la comunidad que participen en acciones preventivas o de seguimiento.
+
+Respuesta correcta: A) A sus hijas e hijos y a otras personas dependientes que se encuentren en situación de riesgo.
+
+Justificación: El artículo 24, parágrafo III, de la Ley N.º 348 dispone que los servicios de atención sean extensivos a las hijas e hijos y a otras personas dependientes de la mujer cuando se encuentren en situación de riesgo. La B puede recibir orientación en casos concretos, pero no es la extensión obligatoria establecida. La C se refiere a posibles testigos o personas informadas. La D corresponde a acciones comunitarias de prevención y no al grupo protegido por la disposición.
+
+Pregunta #43: El «Manual de resolución de problemas», refiere que el Diagndéstico de habilidades se compone de preguntas de opcion multiple cuidadosamente seleccionadas y se puede aplicar dos veces:
+
+A) Una vez antes de iniciar las lecciones y otra después de concluirlas.
+B) Una vez al terminar cada unidad y otra durante la evaluación institucional.
+C) Una vez de forma individual y otra mediante resolución grupal.
+D) Una vez como evaluación escrita y otra como entrevista de seguimiento.
+
+Respuesta correcta: A) Una vez antes de iniciar las lecciones y otra después de concluirlas.
+
+Justificación: El diagnóstico se aplica inicialmente como preevaluación para establecer el nivel de entrada de las habilidades y vuelve a administrarse al concluir las lecciones como posevaluación. La comparación permite identificar cambios vinculados con el proceso formativo. La B confunde el diagnóstico con evaluaciones periódicas. La C modifica la modalidad de aplicación, pero no expresa sus dos momentos. La D introduce una entrevista que no forma parte de la descripción del instrumento.
+
+Pregunta #44: La afirmación de que la especie humana codificó su experiencia primero con la palabra y luego básicamente con la imagen y otros signos, ¿qué sesgo implícito revela?
+
+A) Un sesgo logocéntrico y evolucionista que concede prioridad histórica y cognitiva a la palabra sobre otros sistemas simbólicos.
+B) Un sesgo iconocéntrico que considera la imagen como el origen de toda forma de comunicación humana.
+C) Un sesgo tecnológico que atribuye los cambios culturales a la aparición de medios audiovisuales.
+D) Un sesgo relativista que sostiene que todos los sistemas simbólicos poseen el mismo valor en cualquier contexto.
+
+Respuesta correcta: A) Un sesgo logocéntrico y evolucionista que concede prioridad histórica y cognitiva a la palabra sobre otros sistemas simbólicos.
+
+Justificación: La afirmación organiza los sistemas de representación en una secuencia lineal —primero palabra y después imagen— y sitúa el lenguaje verbal como forma originaria o superior. Esto revela un sesgo logocéntrico y evolucionista, porque las culturas han utilizado de manera interrelacionada gestos, imágenes, sonidos, objetos y oralidad. La B plantea la jerarquía contraria. La C atribuye el fenómeno a tecnología contemporánea. La D rechaza jerarquías, mientras el enunciado sí establece una. La respuesta es una inferencia crítica, pues el enunciado no identifica expresamente el nombre del sesgo.
+
+Pregunta #45: Cuando una institución educativa adapta e incluso recrea la normativa externa a sus características concretas, esto refleja principalmente:
+
+A) Incumplimiento de las disposiciones superiores por falta de supervisión administrativa.
+B) Creatividad, autonomía y madurez institucional para contextualizar las prescripciones.
+C) Sustitución del currículum oficial por decisiones particulares del personal docente.
+D) Resistencia organizativa destinada a conservar las prácticas previamente establecidas.
+
+Respuesta correcta: B) Creatividad, autonomía y madurez institucional para contextualizar las prescripciones.
+
+Justificación: Una organización educativa que interpreta y recrea responsablemente la normativa demuestra capacidad de aprendizaje, autonomía y madurez para responder a su contexto. No se trata de desconocer la norma, sino de concretarla de manera pertinente. La A equipara contextualización con incumplimiento. La C supone eliminación del currículum oficial. La D describe una resistencia conservadora, mientras el caso plantea una apropiación creativa de las disposiciones externas.
+
+Pregunta #46: De acuerdo con el texto «Convivencia escolar y resolución pacífica de conflictos», la mediación, como explica Lederach (1996), es:
+
+A) Un proceso voluntario en el que una tercera persona imparcial facilita la comunicación para que las partes construyan su propio acuerdo.
+B) Un procedimiento en el que una autoridad analiza los hechos y dicta una solución obligatoria para las partes.
+C) Una negociación asistida en la que la persona mediadora propone la alternativa que considera más equilibrada.
+D) Un mecanismo disciplinario previo mediante el cual se determinan responsabilidades y medidas correctivas.
+
+Respuesta correcta: A) Un proceso voluntario en el que una tercera persona imparcial facilita la comunicación para que las partes construyan su propio acuerdo.
+
+Justificación: Para Lederach, la mediación incorpora a una tercera persona aceptada e imparcial que ayuda a mejorar la comunicación y el entendimiento, sin imponer la decisión. La B describe arbitraje o decisión de autoridad. La C otorga al mediador la facultad de definir la solución, lo que contradice la autodeterminación de las partes. La D pertenece al ámbito disciplinario y busca establecer responsabilidades, mientras la mediación se orienta a construir acuerdos voluntarios y transformar la relación.
+
+Pregunta #47: El desplazamiento en el modo de formular las finalidades educativas entre el siglo XIX y la actualidad expresa:
+
+A) El tránsito de una escuela centrada en transmisión, disciplina y homogeneización hacia finalidades integrales, críticas, inclusivas y ciudadanas.
+B) La sustitución de la formación académica por competencias laborales destinadas a la economía tecnológica.
+C) El abandono de los conocimientos disciplinares para priorizar únicamente experiencias cotidianas del alumnado.
+D) La reducción de las finalidades educativas a resultados comparables mediante evaluaciones estandarizadas.
+
+Respuesta correcta: A) El tránsito de una escuela centrada en transmisión, disciplina y homogeneización hacia finalidades integrales, críticas, inclusivas y ciudadanas.
+
+Justificación: Históricamente, las finalidades escolares se formularon alrededor de transmisión cultural, disciplina y uniformidad. Los planteamientos contemporáneos incorporan desarrollo integral, participación democrática, inclusión, pensamiento crítico, convivencia y derechos. La B reduce el cambio a empleabilidad. La C plantea una falsa oposición entre disciplinas y experiencia. La D describe una tendencia evaluativa contemporánea, pero no sintetiza la ampliación de finalidades educativas. En Bolivia, la Ley N.º 070 articula formación integral, comunitaria, productiva, descolonizadora e intercultural.
+
 Pregunta #48: ¿Qué se entiende por innovación educativa?
-A) Un acto deliberado y planificado de solución de problemas orientado a mejorar los aprendizajes y transformar prácticas tradicionales.
-B) La compra de tecnología, independientemente de su uso pedagógico.
-C) Cualquier cambio realizado sin objetivos ni evaluación.
-D) La sustitución obligatoria de toda práctica anterior.
-Respuesta correcta: A) Un acto deliberado y planificado de solución de problemas orientado a mejorar los aprendizajes y transformar prácticas tradicionales
-Justificación: La UNESCO define la innovación educativa como un acto deliberado y planificado de solución de problemas que busca mejorar la calidad de los aprendizajes, superar el paradigma tradicional y pasar del aprendizaje pasivo a una construcción interactiva y compartida. No todo cambio constituye innovación: debe responder a una necesidad, poseer intencionalidad, producir transformaciones significativas y ser analizado o evaluado. Tampoco supone rechazar automáticamente toda tradición.
-Pregunta #49: La cultura escolar, tal como opera en la práctica pedagógica concreta, se caracteriza por ser:
-A) Idéntica en todas las instituciones.
-B) Una reproducción exacta de las disposiciones oficiales.
-C) Dinámica, contextual, relacional y continuamente interpretada o negociada por sus actores.
-D) Independiente de las normas, valores y rutinas institucionales.
-Respuesta correcta: C) Dinámica, contextual, relacional y continuamente interpretada o negociada por sus actores
-Justificación: La cultura escolar está constituida por valores, creencias, normas, rutinas, relaciones de poder, formas de comunicación y significados construidos históricamente. No es una simple copia de la normativa, porque docentes, directivos y estudiantes la interpretan y reconstruyen en la práctica. Esta característica explica que dos instituciones sometidas al mismo currículum oficial puedan producir experiencias educativas diferentes. El texto curricular muestra que lo planificado se transforma al atravesar las políticas, los centros y las aulas.
-Pregunta #50: Según el texto “Diseñar el currículum”, ¿qué diferencia existe entre la concepción realista y la concepción relativista del conocimiento respecto de su valor?
-A) Ambas consideran que el conocimiento carece de relación con la sociedad.
-B) La concepción realista valora el conocimiento por representar objetivamente la realidad; la relativista lo entiende como construcción social cuyo valor depende del contexto, la cultura y los intereses.
-C) La concepción realista rechaza la ciencia y la relativista la considera absoluta.
-D) Ambas sostienen que todo conocimiento tiene un valor universal e invariable.
-Respuesta correcta: B) La concepción realista valora el conocimiento por representar objetivamente la realidad; la relativista lo entiende como construcción social cuyo valor depende del contexto, la cultura y los intereses
-Justificación: La pregunta original perdió el antecedente de la expresión “ambas”; por el contenido del capítulo, se refiere a las concepciones realista y relativista o sociocrítica. Para la visión realista, el conocimiento es valioso en cuanto representa de manera fiable una realidad externa y objetiva, otorgándose especial autoridad al conocimiento científico o académico. Para la visión relativista, el conocimiento se construye social e históricamente y refleja valores, intereses y relaciones culturales; por eso su valor se analiza en relación con un contexto y sus usos. El texto advierte que decidir qué conocimiento es valioso supone opciones epistemológicas, ideológicas y sociales.
+
+A) Un proceso deliberado y planificado de solución de problemas que transforma prácticas para mejorar la calidad y superar formas tradicionales.
+B) La incorporación de tecnologías o recursos recientes dentro de una práctica pedagógica previamente establecida.
+C) La aplicación de una experiencia exitosa en otras instituciones sin modificar sus componentes principales.
+D) El cumplimiento de una reforma normativa mediante la actualización de documentos y procedimientos institucionales.
+
+Respuesta correcta: A) Un proceso deliberado y planificado de solución de problemas que transforma prácticas para mejorar la calidad y superar formas tradicionales.
+
+Justificación: El texto de innovación educativa la concibe como un proceso intencional, organizado y planificado de resolución de problemas orientado a mejorar la calidad y transformar concepciones, relaciones y prácticas. La B puede ser modernización tecnológica sin cambio pedagógico. La C describe transferencia mecánica y desconoce el contexto. La D puede producir cambios documentales, pero no garantiza transformación real. La innovación exige aprendizaje colectivo, reflexión permanente, participación y revisión de los resultados.
+
+Pregunta #49: La cultura escolar, tal cómo opera en la práctica pedagdégica concreta, se caracteriza por:
+
+A) Ser un conjunto estable de normas formales que se aplica de manera uniforme en todas las aulas.
+B) Ser dinámica, contextual, histórica y construida mediante relaciones, prácticas y negociaciones cotidianas.
+C) Estar determinada principalmente por el currículo oficial y los reglamentos administrativos vigentes.
+D) Constituir una suma de preferencias individuales que no produce efectos sobre el trabajo escolar.
+
+Respuesta correcta: B) Ser dinámica, contextual, histórica y construida mediante relaciones, prácticas y negociaciones cotidianas.
+
+Justificación: La cultura escolar se produce en la interacción entre normas, tradiciones, valores, relaciones de poder, rutinas, interpretaciones y experiencias de los actores. Por ello es histórica, contextual y susceptible de negociación y transformación. La A la presenta como estática y uniforme. La C la reduce a disposiciones formales, ignorando el currículum real y oculto. La D desconoce que las prácticas compartidas configuran expectativas, comportamientos y formas institucionales de enseñar y aprender.
+
+Pregunta #50: El texto «Disefar el currículum» ¿Cuál es la diferencia fundamental entre ambas respecto al valor que atribuyen al conocimiento?
+
+A) La posición realista valora el conocimiento por reflejar una realidad externa con fiabilidad; la relativista lo entiende como construcción social cuyo valor depende del grupo y la cultura.
+B) La posición realista valora la utilidad social del conocimiento; la relativista defiende su objetividad disciplinar y universal.
+C) La posición realista prioriza la experiencia comunitaria; la relativista concede mayor valor a las ciencias experimentales.
+D) La posición realista considera que todo conocimiento es ideológico; la relativista sostiene que puede representar neutralmente la realidad.
+
+Respuesta correcta: A) La posición realista valora el conocimiento por reflejar una realidad externa con fiabilidad; la relativista lo entiende como construcción social cuyo valor depende del grupo y la cultura.
+
+Justificación: En Diseñar el currículum, «ambas» alude a las dos posturas descritas en el párrafo precedente. La visión realista sostiene que el valor del conocimiento reside en representar una realidad externa objetiva con cierto grado de fiabilidad y suele privilegiar el conocimiento académico. La relativista, sociocrítica o socioconstructivista entiende el conocimiento como construcción social vinculada con valores y utilidad cultural. La B invierte ambas posiciones. La C atribuye rasgos que el texto no establece. La D también intercambia sus fundamentos epistemológicos.
