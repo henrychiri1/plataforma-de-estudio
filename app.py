@@ -1,13 +1,14 @@
 import streamlit as st
 import os
-import re
 
 st.set_page_config(page_title="Simulador Ascenso 2026", layout="centered")
 
 def parse_txt(contenido):
-    contenido_limpio = re.sub(r"\", "", contenido)
-    bloques = re.split(r"Pregunta #", contenido_limpio)
-    preguntas = []
+    # Eliminamos las etiquetas simplemente buscando y reemplazando 
+    # sin usar expresiones regulares complejas ni barras invertidas
+    contenido_limpio = ""
+    for linea in contenido.splitlines():
+        if "
     
     for b in bloques:
         if "Respuesta correcta:" in b:
@@ -23,8 +24,10 @@ def parse_txt(contenido):
             corr = "A"
             for linea in lineas:
                 if "Respuesta correcta:" in linea:
-                    match = re.search(r"([a-dA-D])", linea)
-                    if match: corr = match.group(1).upper()
+                    # Toma la primera letra después de los dos puntos
+                    partes = linea.split(":")
+                    if len(partes) > 1:
+                        corr = partes[1].strip()[0].upper()
             
             just = "Verificar en documento original"
             for linea in lineas:
@@ -46,7 +49,6 @@ if os.path.exists(ruta_templates):
     bloque = st.sidebar.selectbox("Elige un bloque:", archivos)
 
     if bloque:
-        # AQUÍ ESTÁ EL CAMBIO CLAVE: 'errors="ignore"' hará que no se bloquee por caracteres raros
         with open(os.path.join(ruta_templates, bloque), "r", encoding="utf-8", errors="ignore") as f:
             data = parse_txt(f.read())
         
@@ -55,6 +57,7 @@ if os.path.exists(ruta_templates):
         if data:
             q = data[st.session_state.q_idx]
             st.subheader(f"Pregunta {st.session_state.q_idx + 1}: {q['pregunta']}")
+            
             opciones = {"A": q['a'], "B": q['b'], "C": q['c'], "D": q['d']}
             eleccion = st.radio("Selecciona:", list(opciones.keys()), format_func=lambda x: f"{x}) {opciones[x]}")
             
@@ -69,3 +72,5 @@ if os.path.exists(ruta_templates):
                 if st.session_state.q_idx < len(data) - 1:
                     st.session_state.q_idx += 1
                     st.rerun()
+        else:
+            st.warning("No se encontraron preguntas. Revisa el formato del TXT.")
