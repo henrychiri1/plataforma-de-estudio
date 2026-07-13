@@ -5,33 +5,40 @@ import re
 st.set_page_config(page_title="Simulador Ascenso 2026", layout="centered")
 
 def parse_txt(contenido):
-    # En lugar de re.sub complejo, limpiamos el texto directamente reemplazando las etiquetas source
-    # Esto evita el uso de barras invertidas que causan el error de sintaxis
-    contenido_limpio = contenido.replace("", "").replace("", "")
-    # También podemos borrar cualquier etiqueta con este regex simple
-    contenido_limpio = re.sub(r"\", "", contenido_limpio)
+    # Usamos una técnica sin barras invertidas para limpiar el texto
+    # Eliminamos el patrón convirtiendo los corchetes
+    contenido_limpio = contenido.replace("[", "(").replace("]", ")")
     
-    bloques = re.split(r"(?=Pregunta\s*#)", contenido_limpio)
+    # Bloques divididos por "Pregunta #"
+    bloques = re.split("Pregunta #", contenido_limpio)
     preguntas = []
+    
     for b in bloques:
-        # Usamos una estructura más simple para el match
-        match = re.search(r"Pregunta\s*#\d+:\s*(.*?)\nA\)\s*(.*?)\nB\)\s*(.*?)\nC\)\s*(.*?)\nD\)\s*(.*?)\nRespuesta correcta:\s*([a-dA-D]).*?\nJustificación:\s*(.*)", b, re.DOTALL)
-        if match:
+        if "Respuesta correcta:" in b:
+            # Extraemos datos usando un enfoque más sencillo
+            pregunta = b.split("\n")[0]
+            partes = b.split("\n")
+            
+            # Buscamos las opciones basándonos en la letra inicial
+            op_a = next((p for p in partes if p.startswith("A)")), "")
+            op_b = next((p for p in partes if p.startswith("B)")), "")
+            op_c = next((p for p in partes if p.startswith("C)")), "")
+            op_d = next((p for p in partes if p.startswith("D)")), "")
+            
+            corr = next((p for p in partes if "Respuesta correcta:" in p), "A")
+            just = next((p for p in partes if "Justificación:" in p), "Sin justificación")
+            
             preguntas.append({
-                "pregunta": match.group(1),
-                "a": match.group(2),
-                "b": match.group(3),
-                "c": match.group(4),
-                "d": match.group(5),
-                "corr": match.group(6),
-                "just": match.group(7)
+                "pregunta": pregunta,
+                "a": op_a, "b": op_b, "c": op_c, "d": op_d,
+                "corr": corr[-1], 
+                "just": just
             })
     return preguntas
 
 st.title("🎓 Simulador de Ascenso 2026")
-st.sidebar.header("Selección de Bloque")
-
 ruta_templates = "templates"
+
 if os.path.exists(ruta_templates):
     archivos = [f for f in os.listdir(ruta_templates) if f.endswith(".txt")]
     bloque = st.sidebar.selectbox("Elige un bloque:", archivos)
@@ -54,13 +61,9 @@ if os.path.exists(ruta_templates):
                     st.success("¡Correcto! 🎉")
                 else:
                     st.error(f"Incorrecto. La correcta era {q['corr'].upper()}")
-                st.info(f"**Justificación:** {q['just']}")
+                st.info(f"**{q['just']}**")
                 
             if st.button("Siguiente"):
                 if st.session_state.q_idx < len(data) - 1:
                     st.session_state.q_idx += 1
                     st.rerun()
-        else:
-            st.warning("No se encontraron preguntas válidas en el archivo seleccionado.")
-else:
-    st.error("No se encontró la carpeta 'templates'.")
