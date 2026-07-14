@@ -9,20 +9,29 @@ def parse_txt(contenido):
     bloques = re.split(r'Pregunta #', contenido)
     preguntas = []
     for b in bloques:
-        if "Respuesta correcta:" in b:
+        if "Respuesta correcta:" in b.lower():
             try:
-                lineas = b.split('\n')
+                lineas = b.strip().split('\n')
                 pregunta = lineas[0]
                 op_map = {}
+                # Lógica flexible: detecta A), A., a), a.
                 for l in lineas:
-                    if l.startswith("A)"): op_map['A'] = l[3:]
-                    if l.startswith("B)"): op_map['B'] = l[3:]
-                    if l.startswith("C)"): op_map['C'] = l[3:]
-                    if l.startswith("D)"): op_map['D'] = l[3:]
-                corr_letra = re.search(r'Respuesta correcta:\s*([A-D])', b).group(1)
-                texto_correcto = op_map[corr_letra]
-                just = re.search(r'Justificación:\s*(.*)', b, re.DOTALL).group(1).strip()
-                preguntas.append({'q': pregunta, 'opciones': list(op_map.values()), 'corr_texto': texto_correcto, 'just': just})
+                    match = re.match(r'^([A-Da-d])[\.\)]\s*(.*)', l.strip())
+                    if match:
+                        letra = match.group(1).upper()
+                        op_map[letra] = match.group(2).strip()
+                
+                # Si no encontramos al menos 4 opciones, omitimos la pregunta para evitar errores
+                if len(op_map) < 4: continue
+
+                corr_match = re.search(r'Respuesta correcta:\s*([A-Da-d])', b, re.IGNORECASE)
+                corr_letra = corr_match.group(1).upper()
+                texto_correcto = op_map.get(corr_letra, "No encontrada")
+                
+                just = re.search(r'Justificación:\s*(.*)', b, re.DOTALL)
+                just_text = just.group(1).strip() if just else "Sin justificación"
+                
+                preguntas.append({'q': pregunta, 'opciones': list(op_map.values()), 'corr_texto': texto_correcto, 'just': just_text})
             except: continue
     return preguntas
 
@@ -66,7 +75,7 @@ if os.path.exists(ruta):
         st.subheader(f"Pregunta {st.session_state.idx + 1}")
         st.write(q['q'])
         
-        # KEY DINÁMICA: Esto obliga a Streamlit a crear un radio nuevo cada vez
+        # KEY DINÁMICA: Obliga a Streamlit a refrescar el radio
         seleccion = st.radio("Elige:", st.session_state.mezcladas, index=None, key=f"radio_{st.session_state.idx}")
         
         if seleccion:
