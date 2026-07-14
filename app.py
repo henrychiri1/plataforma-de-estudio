@@ -5,7 +5,6 @@ import random
 
 st.set_page_config(page_title="Simulador Ascenso", layout="centered")
 
-# ... [La función parse_txt se mantiene igual] ...
 def parse_txt(contenido):
     bloques = re.split(r'Pregunta #', contenido)
     preguntas = []
@@ -27,59 +26,59 @@ def parse_txt(contenido):
             except: continue
     return preguntas
 
-# --- ESTADO ---
+# --- ESTADO INICIAL ---
 if 'idx' not in st.session_state: 
-    st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'intentos': 0, 'respondido': False, 'last_file': None})
+    st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'respondido': False, 'last_file': None})
 
 st.title("🎓 Simulador de Ascenso 2026")
 
 ruta = "templates"
 if os.path.exists(ruta):
-   # Con sorted() le indicamos que ordene la lista alfabéticamente
     archivos = sorted([f for f in os.listdir(ruta) if f.endswith(".txt")])
     archivo = st.sidebar.selectbox("Bloque:", archivos)
     
-    if archivo:
-        data = parse_txt(open(os.path.join(ruta, archivo), "r", encoding="utf-8", errors="ignore").read())
+    # Reset al cambiar de archivo
+    if st.session_state.last_file != archivo:
+        st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'respondido': False, 'last_file': archivo, 'mezcladas': None})
+        st.rerun()
+
+    data = parse_txt(open(os.path.join(ruta, archivo), "r", encoding="utf-8", errors="ignore").read())
+    
+    # Barra de progreso
+    st.progress(min(st.session_state.idx / len(data), 1.0))
+    
+    # Contadores
+    c1, c2 = st.columns(2)
+    c1.metric("Correctas ✅", st.session_state.correctas)
+    c2.metric("Errores ❌", st.session_state.incorrectas)
+
+    if st.session_state.idx < len(data):
+        q = data[st.session_state.idx]
         
-        if st.session_state.last_file != archivo:
-            st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'last_file': archivo, 'respondido': False, 'intentos': 0})
-            st.rerun()
+        # Mezclar solo si es pregunta nueva
+        if st.session_state.get('last_q_idx') != st.session_state.idx:
+            st.session_state.mezcladas = q['opciones'][:]
+            random.shuffle(st.session_state.mezcladas)
+            st.session_state.last_q_idx = st.session_state.idx
+            st.session_state.respondido = False
+            st.session_state.intentos = 0
 
-        # BARRA DE PROGRESO
-        progreso = (st.session_state.idx) / len(data)
-        st.progress(progreso)
+        st.subheader(f"Pregunta {st.session_state.idx + 1}")
+        st.write(q['q'])
         
-        col1, col2 = st.columns(2)
-        col1.metric("Correctas ✅", st.session_state.correctas)
-        col2.metric("Errores ❌", st.session_state.incorrectas)
-
-        if st.session_state.idx < len(data):
-            q = data[st.session_state.idx]
-            
-            if 'mezcladas' not in st.session_state or st.session_state.get('last_idx') != st.session_state.idx:
-                st.session_state.mezcladas = q['opciones'][:]
-                random.shuffle(st.session_state.mezcladas)
-                st.session_state.last_idx = st.session_state.idx
-                st.session_state.intentos = 0
-                st.session_state.respondido = False
-
-            st.subheader(f"Pregunta {st.session_state.idx + 1}")
-            st.write(q['q'])
-            
-            # Lógica de respuesta
-            seleccion = st.radio("Elige:", st.session_state.mezcladas, index=None, key="seleccion", disabled=st.session_state.respondido)
-            
-            if seleccion:
+        # KEY DINÁMICA: Esto obliga a Streamlit a crear un radio nuevo cada vez
+        seleccion = st.radio("Elige:", st.session_state.mezcladas, index=None, key=f"radio_{st.session_state.idx}")
+        
+        if seleccion:
+            if not st.session_state.respondido:
                 if seleccion == q['corr_texto']:
-                    st.success("¡Excelente! Has acertado. 🎉")
-                    st.session_state.correctas += 1 if st.session_state.intentos == 0 else 0
+                    st.success("¡Correcto! 🎉")
+                    st.session_state.correctas += 1
                     st.session_state.respondido = True
                 else:
                     if st.session_state.intentos == 0:
-                        st.warning("Esa no es la opción correcta. ¡Piénsalo un poco más y vuelve a intentarlo! Tienes una oportunidad más.")
+                        st.warning("Incorrecto. Tienes una segunda oportunidad.")
                         st.session_state.intentos += 1
-                        st.rerun() # Recargamos para que pueda volver a elegir
                     else:
                         st.error(f"Incorrecto. La respuesta era: {q['corr_texto']}")
                         st.session_state.incorrectas += 1
@@ -87,10 +86,12 @@ if os.path.exists(ruta):
             
             if st.session_state.respondido:
                 st.info(f"**Justificación:** {q['just']}")
-                if st.button("Siguiente"):
+                if st.button("Siguiente Pregunta"):
                     st.session_state.idx += 1
-                    st.session_state.respondido = False
                     st.rerun()
-        else:
-            st.balloons()
-            st.write("### ¡Bloque completado!")
+    else:
+        st.balloons()
+        st.success("¡Bloque completado!")
+        if st.button("Reiniciar"):
+            st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0})
+            st.rerun()
