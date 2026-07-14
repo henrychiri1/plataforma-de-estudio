@@ -4,12 +4,30 @@ import re
 
 st.set_page_config(page_title="Simulador Ascenso", layout="centered")
 
+# --- AUTENTICACIÓN (LOGIN) ---
+CLAVE_MAESTRA = "ASCENSO2026" 
+
+def ventana_login():
+    st.title("🔐 Acceso al Simulador")
+    st.info("Por favor, introduce la clave para acceder al material.")
+    clave = st.text_input("Clave de acceso:", type="password")
+    if st.button("Ingresar"):
+        if clave == CLAVE_MAESTRA:
+            st.session_state.autenticado = True
+            st.rerun()
+        else:
+            st.error("Clave incorrecta.")
+    st.stop()
+
+if 'autenticado' not in st.session_state: st.session_state.autenticado = False
+if not st.session_state.autenticado: ventana_login()
+
+# --- LÓGICA DE DATOS ---
 @st.cache_data
 def parse_txt(ruta_archivo):
     contenido = open(ruta_archivo, "r", encoding="utf-8-sig", errors="ignore").read()
     bloques = re.split(r'Pregunta\s*#\d+:', contenido, flags=re.IGNORECASE)
     preguntas = []
-    
     for b in bloques:
         if re.search(r'Respuesta\s*correcta:', b, re.IGNORECASE):
             try:
@@ -22,25 +40,35 @@ def parse_txt(ruta_archivo):
                     if match:
                         letra = match.group(1).upper()
                         op_map[letra] = match.group(2).strip()
-                
                 if len(op_map) < 4: continue
-
                 corr_match = re.search(r'Respuesta\s*correcta:\s*([A-Da-d])', b, re.IGNORECASE)
                 corr_letra = corr_match.group(1).upper()
                 texto_correcto = op_map.get(corr_letra, "No encontrada")
-                
                 just = re.search(r'Justificación:\s*(.*)', b, re.IGNORECASE | re.DOTALL)
                 just_text = just.group(1).strip() if just else "Sin justificación"
-                
                 preguntas.append({'q': pregunta, 'opciones': list(op_map.values()), 'corr_texto': texto_correcto, 'just': just_text})
             except: continue
     return preguntas
 
-# --- ESTADO INICIAL ---
+# --- CONTADOR DE VISITAS ---
+def actualizar_visitas():
+    if not os.path.exists("visitas.txt"):
+        with open("visitas.txt", "w") as f: f.write("1")
+        return 1
+    with open("visitas.txt", "r+") as f:
+        v = int(f.read()) + 1
+        f.seek(0); f.write(str(v))
+        return v
+
+if 'num_visitas' not in st.session_state:
+    st.session_state.num_visitas = actualizar_visitas()
+
+# --- INTERFAZ PRINCIPAL ---
+st.title("🎓 Simulador de Ascenso 2026")
+st.sidebar.metric("Usuarios Totales", st.session_state.num_visitas)
+
 if 'idx' not in st.session_state: 
     st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'respondido': False, 'last_file': None})
-
-st.title("🎓 Simulador de Ascenso 2026")
 
 ruta = "templates"
 if os.path.exists(ruta):
@@ -61,7 +89,6 @@ if os.path.exists(ruta):
 
         if st.session_state.idx < len(data):
             q = data[st.session_state.idx]
-            
             if st.session_state.get('last_q_idx') != st.session_state.idx:
                 st.session_state.respondido = False
                 st.session_state.last_q_idx = st.session_state.idx
@@ -69,20 +96,18 @@ if os.path.exists(ruta):
             st.subheader(f"Pregunta {st.session_state.idx + 1}")
             st.write(q['q'])
             
-            # El radio se deshabilita automáticamente si ya se respondió
-            seleccion = st.radio("Elige:", q['opciones'], index=None, key=f"radio_{st.session_state.idx}", disabled=st.session_state.respondido)
+            seleccion = st.radio("Elige:", q['opciones'], index=None, key=f"r_{st.session_state.idx}", disabled=st.session_state.respondido)
             
             if seleccion:
-                # Registro único: solo entra aquí si no se ha respondido aún
                 if not st.session_state.respondido:
                     if seleccion == q['corr_texto']:
-                        st.success("¡Correcto! 🎉")
+                        st.success("¡Excelente trabajo! ¡Vas por muy buen camino! 🎉")
                         st.session_state.correctas += 1
                     else:
-                        st.error(f"Incorrecto. La respuesta era: {q['corr_texto']}")
+                        st.warning(f"¡Ánimo, no te rindas! La respuesta correcta era: {q['corr_texto']}")
                         st.session_state.incorrectas += 1
                     st.session_state.respondido = True
-                    st.rerun() # Refresca para mostrar la justificación inmediatamente
+                    st.rerun()
                 
                 if st.session_state.respondido:
                     st.info(f"**Justificación:** {q['just']}")
@@ -91,9 +116,7 @@ if os.path.exists(ruta):
                         st.rerun()
         else:
             st.balloons()
-            st.success("¡Bloque completado!")
+            st.success("¡Has completado el bloque con éxito!")
             if st.button("Reiniciar"):
                 st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0})
                 st.rerun()
-    else:
-        st.warning("El archivo seleccionado no tiene preguntas válidas.")
