@@ -54,7 +54,10 @@ if os.path.exists(ruta):
     data = parse_txt(open(os.path.join(ruta, archivo), "r", encoding="utf-8", errors="ignore").read())
     
     # Barra de progreso
+    if len(data) > 0:
     st.progress(min(st.session_state.idx / len(data), 1.0))
+    else:
+    st.warning("El archivo seleccionado está vacío o no tiene preguntas válidas. Por favor, revisa el formato del archivo .txt")
     
     # Contadores
     c1, c2 = st.columns(2)
