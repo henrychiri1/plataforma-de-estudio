@@ -14,14 +14,14 @@ def parse_txt(contenido):
                 lineas = b.strip().split('\n')
                 pregunta = lineas[0]
                 op_map = {}
-                # Lógica flexible: detecta A), A., a), a.
+                # Detección flexible: acepta A), A., a), a.
                 for l in lineas:
                     match = re.match(r'^([A-Da-d])[\.\)]\s*(.*)', l.strip())
                     if match:
                         letra = match.group(1).upper()
                         op_map[letra] = match.group(2).strip()
                 
-                # Si no encontramos al menos 4 opciones, omitimos la pregunta para evitar errores
+                # Validación de seguridad: debe tener al menos 4 opciones
                 if len(op_map) < 4: continue
 
                 corr_match = re.search(r'Respuesta correcta:\s*([A-Da-d])', b, re.IGNORECASE)
@@ -53,18 +53,18 @@ if os.path.exists(ruta):
 
     data = parse_txt(open(os.path.join(ruta, archivo), "r", encoding="utf-8", errors="ignore").read())
     
-    # Barra de progreso
+    # Barra de progreso protegida (con indentación correcta)
     if len(data) > 0:
-    st.progress(min(st.session_state.idx / len(data), 1.0))
+        st.progress(min(st.session_state.idx / len(data), 1.0))
     else:
-    st.warning("El archivo seleccionado está vacío o no tiene preguntas válidas. Por favor, revisa el formato del archivo .txt")
+        st.warning("El archivo seleccionado no tiene preguntas válidas.")
     
     # Contadores
     c1, c2 = st.columns(2)
     c1.metric("Correctas ✅", st.session_state.correctas)
     c2.metric("Errores ❌", st.session_state.incorrectas)
 
-    if st.session_state.idx < len(data):
+    if len(data) > 0 and st.session_state.idx < len(data):
         q = data[st.session_state.idx]
         
         # Mezclar solo si es pregunta nueva
@@ -78,7 +78,7 @@ if os.path.exists(ruta):
         st.subheader(f"Pregunta {st.session_state.idx + 1}")
         st.write(q['q'])
         
-        # KEY DINÁMICA: Obliga a Streamlit a refrescar el radio
+        # KEY DINÁMICA: evita que la selección se pegue
         seleccion = st.radio("Elige:", st.session_state.mezcladas, index=None, key=f"radio_{st.session_state.idx}")
         
         if seleccion:
@@ -101,7 +101,7 @@ if os.path.exists(ruta):
                 if st.button("Siguiente Pregunta"):
                     st.session_state.idx += 1
                     st.rerun()
-    else:
+    elif len(data) > 0:
         st.balloons()
         st.success("¡Bloque completado!")
         if st.button("Reiniciar"):
