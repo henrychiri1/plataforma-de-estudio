@@ -80,6 +80,7 @@ if os.path.exists(ruta):
             st.subheader(f"Pregunta {st.session_state.idx + 1}")
             st.write(q['q'])
             
+            # KEY DINÁMICA: evita que la selección se pegue entre preguntas
             seleccion = st.radio("Elige:", st.session_state.mezcladas, index=None, key=f"radio_{st.session_state.idx}_{st.session_state.intentos}", disabled=st.session_state.respondido)
             
             if seleccion:
@@ -98,4 +99,16 @@ if os.path.exists(ruta):
                             st.session_state.incorrectas += 1
                             st.session_state.respondido = True
                 
-                if st.session
+                if st.session_state.respondido:
+                    st.info(f"**Justificación:** {q['just']}")
+                    if st.button("Siguiente Pregunta"):
+                        st.session_state.idx += 1
+                        st.rerun()
+        else:
+            st.balloons()
+            st.success("¡Bloque completado!")
+            if st.button("Reiniciar"):
+                st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0})
+                st.rerun()
+    else:
+        st.warning("El archivo seleccionado no tiene preguntas válidas. Revisa que comiencen con 'Pregunta #N:'")
