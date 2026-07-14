@@ -208,7 +208,7 @@ C) Clasificar a los estudiantes en grupos permanentes según su canal sensorial 
 D) Reemplazar los objetivos comunes por actividades seleccionadas libremente por cada estudiante.
 Respuesta correcta: B) Atender las preferencias de aprendizaje mediante métodos variados y desarrollar también estilos menos utilizados.
 Justificación: Individualizar el estilo de enseñanza no significa crear cincuenta clases distintas, sino utilizar variedad de métodos, representaciones y actividades para facilitar el acceso desde diferentes preferencias y, al mismo tiempo, ampliar las capacidades del estudiante. La A es pedagógica y organizativamente inviable. La C convierte los estilos en etiquetas rígidas. La D elimina los propósitos comunes y confunde diferenciación metodológica con ausencia de orientación curricular.
-Pregunta #31: Una maestra de secundaria nota que sus estudiantes tienen distintas formas de aprender y decide adaptar su práctica docente. Según los principios psicolégicos de la ensenanza, ¿cuál es el propósito del principio «Individualizar el estilo de enseñanza»?
+Pregunta #31: Una maestra de secundaria nota que sus estudiantes tienen distintas formas de aprender y decide adaptar su práctica docente. Según los principios psicológicos de la ensenanza, ¿cuál es el propósito del principio «Individualizar el estilo de enseñanza»?
 A) Mantener a cada estudiante dentro de su estilo preferido para evitar dificultades cognitivas.
 B) Facilitar el aprendizaje mediante diversas vías y ayudar a desarrollar formas de aprender menos dominantes.
 C) Asignar contenidos distintos a cada estudiante según sus resultados académicos anteriores.
@@ -222,28 +222,28 @@ C) Combinar premios y sanciones para que la participación se convierta progresi
 D) Mantener las condiciones actuales hasta que los estudiantes desarrollen espontáneamente confianza para intervenir.
 Respuesta correcta: B) Crear un ambiente seguro, estimulante y participativo, porque la seguridad psicológica favorece la implicación y la motivación interna.
 Justificación: Sáez López considera la seguridad psicológica una condición del aprendizaje: el estudiante participa con mayor libertad cuando se siente seguro dentro de un ambiente estimulante. Las calificaciones pueden actuar como motivadores extrínsecos, pero su uso permanente puede generar dependencia y debilitar el interés intrínseco; por eso A no es la opción más fundamentada. La C convierte la participación en respuesta controlada por consecuencias. La D omite la responsabilidad docente de construir condiciones favorables para la participación.
-Pregunta #33: Según el libro «Estilos de Aprendizaje y Métodos de Enseñanza», ¿qué caracterizaespecíficamente al aprendizaje multimedia?
+Pregunta #33: Según el libro «Estilos de Aprendizaje y Métodos de Enseñanza», ¿qué caracteriza específicamente al aprendizaje multimedia?
 A) La utilización combinada de estímulos auditivos y visuales para aprender información.
 B) La participación simultánea de varios estudiantes en una plataforma de aprendizaje.
 C) La integración de actividades teóricas, prácticas y comunitarias dentro de un proyecto.
 D) La alternancia entre materiales impresos, actividades motrices y evaluación oral.
 Respuesta correcta: A) La utilización combinada de estímulos auditivos y visuales para aprender información.
 Justificación: En la clasificación de tipos de aprendizaje, Sáez López define el aprendizaje multimedia como aquel en el que una persona utiliza estímulos auditivos y visuales para aprender información. La B describe aprendizaje colaborativo mediado por tecnología. La C corresponde a integración metodológica o aprendizaje por proyectos. La D incluye diversos recursos, pero añade componentes motrices y evaluativos que no forman parte de la definición específica del texto.
-Pregunta #34: ¿Qué distingue al aprendizaje episddico de otros tipos de aprendizaje?
+Pregunta #34: ¿Qué distingue al aprendizaje episódico de otros tipos de aprendizaje?
 A) Es un cambio de comportamiento originado por un acontecimiento particular registrado en la memoria episódica.
 B) Es la adquisición progresiva de una habilidad mediante repetición y automatización de movimientos.
 C) Es la construcción de conocimientos generales independientes del contexto en que fueron aprendidos.
 D) Es la observación e imitación consciente de la conducta presentada por un modelo.
 Respuesta correcta: A) Es un cambio de comportamiento originado por un acontecimiento particular registrado en la memoria episódica.
 Justificación: El aprendizaje episódico surge como consecuencia de un acontecimiento específico; por ejemplo, desarrollar miedo a los perros después de una mordedura. El hecho queda asociado con la memoria episódica. La B corresponde al aprendizaje procedimental. La C se vincula con memoria semántica y conocimientos conceptuales. La D describe aprendizaje observacional o social, asociado con la teoría de Bandura.
-Pregunta #35: Perrenoud distingue entre currículum formal y currículum real sehalando que no son de la misma naturaleza. ¿Qué diferencia estructural fundamental explica que ambos currículos operen en planos distintos dentro del sistema educativo?
+Pregunta #35: Perrenoud distingue entre currículum formal y currículum real señalando que no son de la misma naturaleza. ¿Qué diferencia estructural fundamental explica que ambos currículos operen en planos distintos dentro del sistema educativo?
 A) El formal es una prescripción documental, mientras el real está constituido por las tareas, interacciones y experiencias efectivamente desarrolladas.
 B) El formal contiene conocimientos académicos y el real comprende solamente actitudes y valores aprendidos fuera del aula.
 C) El formal pertenece a la administración central y el real es elaborado íntegramente por las familias y estudiantes.
 D) El formal determina los aprendizajes obligatorios y el real corresponde únicamente a resultados no previstos.
 Respuesta correcta: A) El formal es una prescripción documental, mientras el real está constituido por las tareas, interacciones y experiencias efectivamente desarrolladas.
 Justificación: Para Perrenoud, el currículum formal expresa intenciones, programas y prescripciones, mientras el currículum real se concreta en el trabajo escolar: tiempos, tareas, interacciones, selecciones, omisiones y aprendizajes efectivamente producidos. La B divide indebidamente conocimientos y valores. La C atribuye el currículum real solo a familias y estudiantes. La D lo limita a lo imprevisto, aunque también incluye aprendizajes previstos que llegan a realizarse en la práctica.
-Pregunta #36: Según el texto «Estilos de Aprendizaje y Métodos de Enseñanza», gcuantos objetivos de aprendizaje recomienda la mejor práctica?
+Pregunta #36: Según el texto «Estilos de Aprendizaje y Métodos de Enseñanza», cuantos objetivos de aprendizaje recomienda la mejor práctica?
 A) No más de cuatro objetivos.
 B) No más de seis objetivos.
 C) Entre ocho y diez objetivos.
@@ -292,7 +292,7 @@ C) A las personas de su entorno laboral que hayan conocido los hechos denunciado
 D) A integrantes de la comunidad que participen en acciones preventivas o de seguimiento.
 Respuesta correcta: A) A sus hijas e hijos y a otras personas dependientes que se encuentren en situación de riesgo.
 Justificación: El artículo 24, parágrafo III, de la Ley N.º 348 dispone que los servicios de atención sean extensivos a las hijas e hijos y a otras personas dependientes de la mujer cuando se encuentren en situación de riesgo. La B puede recibir orientación en casos concretos, pero no es la extensión obligatoria establecida. La C se refiere a posibles testigos o personas informadas. La D corresponde a acciones comunitarias de prevención y no al grupo protegido por la disposición.
-Pregunta #43: El «Manual de resolución de problemas», refiere que el Diagndéstico de habilidades se compone de preguntas de opcion multiple cuidadosamente seleccionadas y se puede aplicar dos veces:
+Pregunta #43: El «Manual de resolución de problemas», refiere que el Diagnóstico de habilidades se compone de preguntas de opcion multiple cuidadosamente seleccionadas y se puede aplicar dos veces:
 A) Una vez antes de iniciar las lecciones y otra después de concluirlas.
 B) Una vez al terminar cada unidad y otra durante la evaluación institucional.
 C) Una vez de forma individual y otra mediante resolución grupal.
@@ -334,14 +334,14 @@ C) La aplicación de una experiencia exitosa en otras instituciones sin modifica
 D) El cumplimiento de una reforma normativa mediante la actualización de documentos y procedimientos institucionales.
 Respuesta correcta: A) Un proceso deliberado y planificado de solución de problemas que transforma prácticas para mejorar la calidad y superar formas tradicionales.
 Justificación: El texto de innovación educativa la concibe como un proceso intencional, organizado y planificado de resolución de problemas orientado a mejorar la calidad y transformar concepciones, relaciones y prácticas. La B puede ser modernización tecnológica sin cambio pedagógico. La C describe transferencia mecánica y desconoce el contexto. La D puede producir cambios documentales, pero no garantiza transformación real. La innovación exige aprendizaje colectivo, reflexión permanente, participación y revisión de los resultados.
-Pregunta #49: La cultura escolar, tal cómo opera en la práctica pedagdégica concreta, se caracteriza por:
+Pregunta #49: La cultura escolar, tal cómo opera en la práctica pedagógica concreta, se caracteriza por:
 A) Ser un conjunto estable de normas formales que se aplica de manera uniforme en todas las aulas.
 B) Ser dinámica, contextual, histórica y construida mediante relaciones, prácticas y negociaciones cotidianas.
 C) Estar determinada principalmente por el currículo oficial y los reglamentos administrativos vigentes.
 D) Constituir una suma de preferencias individuales que no produce efectos sobre el trabajo escolar.
 Respuesta correcta: B) Ser dinámica, contextual, histórica y construida mediante relaciones, prácticas y negociaciones cotidianas.
 Justificación: La cultura escolar se produce en la interacción entre normas, tradiciones, valores, relaciones de poder, rutinas, interpretaciones y experiencias de los actores. Por ello es histórica, contextual y susceptible de negociación y transformación. La A la presenta como estática y uniforme. La C la reduce a disposiciones formales, ignorando el currículum real y oculto. La D desconoce que las prácticas compartidas configuran expectativas, comportamientos y formas institucionales de enseñar y aprender.
-Pregunta #50: El texto «Disefar el currículum» ¿Cuál es la diferencia fundamental entre ambas respecto al valor que atribuyen al conocimiento?
+Pregunta #50: El texto «Diseñar el currículum» ¿Cuál es la diferencia fundamental entre ambas respecto al valor que atribuyen al conocimiento?
 A) La posición realista valora el conocimiento por reflejar una realidad externa con fiabilidad; la relativista lo entiende como construcción social cuyo valor depende del grupo y la cultura.
 B) La posición realista valora la utilidad social del conocimiento; la relativista defiende su objetividad disciplinar y universal.
 C) La posición realista prioriza la experiencia comunitaria; la relativista concede mayor valor a las ciencias experimentales.
