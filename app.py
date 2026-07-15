@@ -70,16 +70,26 @@ st.sidebar.metric("Usuarios Totales", st.session_state.num_visitas)
 if 'idx' not in st.session_state: 
     st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'respondido': False, 'last_file': None})
 
-ruta = "templates"
-if os.path.exists(ruta):
-    archivos = sorted([f for f in os.listdir(ruta) if f.endswith(".txt")])
-    archivo = st.sidebar.selectbox("Bloque:", archivos)
+# MODIFICACIÓN: Selección de carpetas
+ruta_base = "templates"
+if os.path.exists(ruta_base):
+    tipo_contenido = st.sidebar.radio("Selecciona tipo:", ["grupos", "simulacros"])
+    carpeta_actual = os.path.join(ruta_base, tipo_contenido)
     
-    if st.session_state.last_file != archivo:
-        st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'respondido': False, 'last_file': archivo, 'last_q_idx': None})
+    if os.path.exists(carpeta_actual):
+        archivos = sorted([f for f in os.listdir(carpeta_actual) if f.endswith(".txt")])
+        archivo = st.sidebar.selectbox(f"Selecciona {tipo_contenido}:", archivos)
+        ruta_archivo = os.path.join(carpeta_actual, archivo)
+    else:
+        st.error(f"La carpeta '{tipo_contenido}' no existe dentro de '{ruta_base}'.")
+        st.stop()
+    
+    # Reset al cambiar de archivo
+    if st.session_state.last_file != ruta_archivo:
+        st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'respondido': False, 'last_file': ruta_archivo, 'last_q_idx': None})
         st.rerun()
 
-    data = parse_txt(os.path.join(ruta, archivo))
+    data = parse_txt(ruta_archivo)
     
     if len(data) > 0:
         st.progress(min(st.session_state.idx / len(data), 1.0))
