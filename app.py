@@ -58,41 +58,45 @@ if os.path.exists(carpeta):
     ruta_archivo = os.path.join(carpeta, archivo)
     
     if 'last_file' not in st.session_state or st.session_state.last_file != ruta_archivo:
-        st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'respondido': False, 'last_file': ruta_archivo, 'last_q_idx': None})
+        st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0, 'respondido': False, 'last_file': ruta_archivo, 'last_q_idx': None, 'mezcladas': []})
         st.rerun()
 
     data = parse_txt(ruta_archivo)
-    if data:
-        st.progress(min(st.session_state.idx / len(data), 1.0))
-        c1, c2 = st.columns(2)
-        c1.metric("Correctas ✅", st.session_state.correctas)
-        c2.metric("Errores ❌", st.session_state.incorrectas)
+    
+    if data and st.session_state.idx < len(data):
+        q = data[st.session_state.idx]
+        if st.session_state.get('last_q_idx') != st.session_state.idx:
+            st.session_state.respondido = False
+            st.session_state.last_q_idx = st.session_state.idx
+            st.session_state.mezcladas = q['opciones'][:]
+            if tipo == "grupos": random.shuffle(st.session_state.mezcladas)
 
-        if st.session_state.idx < len(data):
-            q = data[st.session_state.idx]
-            if st.session_state.get('last_q_idx') != st.session_state.idx:
-                st.session_state.respondido = False
-                st.session_state.last_q_idx = st.session_state.idx
-                st.session_state.mezcladas = q['opciones'][:]
-                if tipo == "grupos": random.shuffle(st.session_state.mezcladas)
-
-            st.subheader(f"Pregunta {st.session_state.idx + 1}")
-            st.write(q['q'])
-            seleccion = st.radio("Elige:", st.session_state.mezcladas, index=None, key=f"r_{st.session_state.idx}", disabled=st.session_state.respondido)
+        st.subheader(f"Pregunta {st.session_state.idx + 1}")
+        st.write(q['q'])
+        
+        # Corrección del AttributeError usando .get()
+        opciones_para_mostrar = st.session_state.get('mezcladas', q['opciones'])
+        seleccion = st.radio("Elige:", opciones_para_mostrar, index=None, key=f"r_{st.session_state.idx}", disabled=st.session_state.respondido)
+        
+        if seleccion:
+            if not st.session_state.respondido:
+                if seleccion == q['corr_texto']:
+                    st.success("¡Excelente trabajo! ¡Vas por muy buen camino! 🎉")
+                    st.session_state.correctas += 1
+                else:
+                    st.error(f"¡Ánimo, no te rindas! La respuesta correcta era: {q['corr_texto']}")
+                    st.session_state.incorrectas += 1
+                st.session_state.respondido = True
+                st.rerun()
             
-            if seleccion:
-                if not st.session_state.respondido:
-                    if seleccion == q['corr_texto']:
-                        st.success("¡Excelente trabajo! ¡Vas por muy buen camino! 🎉")
-                        st.session_state.correctas += 1
-                    else:
-                        st.error(f"¡Ánimo, no te rindas! La respuesta correcta era: {q['corr_texto']}")
-                        st.session_state.incorrectas += 1
-                    st.session_state.respondido = True
+            if st.session_state.respondido:
+                st.info(f"**Justificación Académica:**\n\n{q['just']}")
+                if st.button("Siguiente Pregunta"):
+                    st.session_state.idx += 1
                     st.rerun()
-                
-                if st.session_state.respondido:
-                    st.info(f"**Justificación Académica:**\n\n{q['just']}")
-                    if st.button("Siguiente Pregunta"):
-                        st.session_state.idx += 1
-                        st.rerun()
+    elif data:
+        st.balloons()
+        st.success("¡Has completado el bloque con éxito!")
+        if st.button("Reiniciar"):
+            st.session_state.update({'idx': 0, 'correctas': 0, 'incorrectas': 0})
+            st.rerun()
