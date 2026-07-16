@@ -111,7 +111,9 @@ if os.path.exists(carpeta_actual):
                         st.success("¡Excelente trabajo! ¡Vas por muy buen camino! 🎉")
                         st.session_state.correctas += 1
                     else:
-                        st.error(f"¡Ánimo, no te rindas! La respuesta correcta era: {q['corr_texto']}")
+                        # Feedback con color rojo intenso usando HTML
+                        st.markdown(f"<h3 style='color:red;'>¡Incorrecto!</h3>", unsafe_allow_html=True)
+                        st.error(f"La respuesta correcta era: {q['corr_texto']}")
                         st.session_state.incorrectas += 1
                     st.session_state.respondido = True
                     st.rerun()
